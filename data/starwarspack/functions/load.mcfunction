@@ -1,7 +1,7 @@
 # Scoreboard Objectives
 scoreboard objectives add starwarspack.value dummy
-scoreboard objectives add starwarspack.rclick dummy
 scoreboard objectives add starwarspack.id dummy
+scoreboard objectives add starwarspack.rclick minecraft.used:minecraft.warped_fungus_on_a_stick
 
 
 # Constants

@@ -1,0 +1,31 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "starwarspack:input"
+      },
+      "ops": [
+        {
+          "source": "lit",
+          "target": "starwarspack.lit",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "starwarspack:input"
+      },
+      "ops": [
+        {
+          "source": "CustomModelData",
+          "target": "CustomModelData",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  
