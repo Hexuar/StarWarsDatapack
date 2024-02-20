@@ -1,0 +1,11 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "short_grass",
+        "tall_grass",
+        "water",
+        "#tall_flowers",
+        "#small_flowers"
+    ]
+}
