@@ -1,0 +1,31 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Kyberite Ore",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2220200}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{starwarspack:{block:1b,kyberite_ore:1b},EntityTag:{Tags:[\"starwarspack.block\"],Silent:1b,Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:\"minecraft:item_frame\",Count:1b,tag:{CustomModelData:2220200,starwarspack:{sound:\"minecraft:block.stone.place\",block:\"minecraft:stone\",loot_table:\"starwarspack:items/kyber_crystal/white\",xp:{min:7,max:12}}}}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

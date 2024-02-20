@@ -10,18 +10,18 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Smoke Grenade",
+                  "text": "Kyber Crystal",
                   "italic": false,
                   "color": "white"
                 }
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:0}"
+                "tag": "{CustomModelData:2220203}"
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{starwarspack:{grenade:1b,smoke_grenade:1b,fuse:30s,effect:\"particle minecraft:campfire_signal_smoke ~ ~ ~ 3 3 3 0 2000 force\"}}"
+                "tag": "{starwarspack:{kyber_crystal:1b,color:\"white\"}}"
               }
             ]
           }
