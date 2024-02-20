@@ -1,0 +1,32 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Smoke Grenade",
+                  "italic": false,
+                  "color": "white"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:0}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{starwarspack:{grenade:1b,smoke_grenade:1b,fuse:30s,effect:\"particle minecraft:campfire_signal_smoke ~ ~ ~ 3 3 3 0 5000 force\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
