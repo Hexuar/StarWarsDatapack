@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Smoke Grenade",
+                  "translate": "item.smoke_grenade",
                   "italic": false,
                   "color": "white"
                 }

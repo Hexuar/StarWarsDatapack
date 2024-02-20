@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Kyber Crystal",
+                  "translate": "item.kyber_crystal",
                   "italic": false,
                   "color": "white"
                 }

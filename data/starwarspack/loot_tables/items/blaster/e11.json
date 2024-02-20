@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "E11 Blaster",
+                  "translate": "item.e11_blaster",
                   "italic": false
                 }
               },
