@@ -5,3 +5,5 @@ scoreboard players set #index starwarspack.value 0
 function starwarspack:entity/blaster_bolt/move_ray
 
 tp ^ ^ ^2
+
+execute if entity @s[tag=starwarspack.reflect] run function starwarspack:entity/blaster_bolt/reflect

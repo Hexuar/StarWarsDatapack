@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "starwarspack:kyberite_ore",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 218727996,
+      "spacing": 2,
+      "separation": 0
+    }
+  }
+  
