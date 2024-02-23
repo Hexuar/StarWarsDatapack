@@ -8,7 +8,7 @@ data modify entity @e[type=item_display,tag=starwarspack.new,distance=..1,sort=n
 $playsound $(sound) block @a ~ ~ ~ 1 0.8
 
 # Block
-$setblock ~ ~ ~ $(block)
+$setblock ~ ~ ~ $(block)$(nbt)
 
 tag @e[type=item_display,tag=starwarspack.new,sort=nearest,limit=1] remove starwarspack.new
 kill @s
