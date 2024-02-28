@@ -30,7 +30,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{starwarspack:{lightsaber:1b}}"
+                "tag": "{starwarspack:{lightsaber:1b,color:1}}"
               }
             ]
           }
