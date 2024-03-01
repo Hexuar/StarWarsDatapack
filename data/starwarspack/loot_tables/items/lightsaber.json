@@ -15,22 +15,12 @@
                 }
               },
               {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "Blue",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ]
-              },
-              {
                 "function": "minecraft:set_nbt",
                 "tag": "{CustomModelData:2220200}"
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{starwarspack:{lightsaber:1b,color:1}}"
+                "tag": "{starwarspack:{lightsaber:1b,color:0}}"
               }
             ]
           }
