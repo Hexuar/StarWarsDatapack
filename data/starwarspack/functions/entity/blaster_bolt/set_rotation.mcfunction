@@ -1,1 +1,0 @@
-$execute as @e[type=marker,tag=starwarspack.new] run tp @s ~ ~ ~ ~$(rx) ~$(ry)
