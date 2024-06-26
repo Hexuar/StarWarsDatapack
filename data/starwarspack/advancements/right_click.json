@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "starwarspack": {
+                "right_click": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "starwarspack:item/right_click"
+  }
+}
