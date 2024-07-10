@@ -16,7 +16,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2220299
+              "value": 222100
             },
             {
               "function": "minecraft:set_custom_data",
@@ -27,7 +27,7 @@
                     "shoot_time": 5,
                     "bloom": 20,
                     "bolt": {
-                      "color": [1, 0, 0],
+                      "color": "[1f, 0f, 0f]",
                       "damage": 3,
                       "scale": 0.25
                     }
