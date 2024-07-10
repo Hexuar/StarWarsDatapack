@@ -10,13 +10,13 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.blaster.e11",
+                "translate": "item.blaster.a280",
                 "italic": false
               }
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 222106
+              "value": 222100
             },
             {
               "function": "minecraft:set_custom_data",
@@ -24,11 +24,11 @@
                 "starwarspack": {
                     "right_click": true,
                     "blaster": true,
-                    "shoot_time": 6,
+                    "shoot_time": 10,
                     "bloom": 20,
                     "bolt": {
                       "color": "[1f, 0f, 0f]",
-                      "damage": 6,
+                      "damage": 8,
                       "scale": 0.25
                     }
                 }
