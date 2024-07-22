@@ -23,14 +23,7 @@
               "tag": {
                 "starwarspack": {
                     "right_click": true,
-                    "blaster": true,
-                    "shoot_time": 5,
-                    "bloom": 20,
-                    "bolt": {
-                      "color": "[1f, 0f, 0f]",
-                      "damage": 5,
-                      "scale": 0.25
-                    }
+                    "flamethrower": true
                 }
               }
             },
