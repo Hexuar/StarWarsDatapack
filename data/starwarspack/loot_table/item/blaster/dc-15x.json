@@ -24,6 +24,8 @@
                 "starwarspack": {
                     "right_click": true,
                     "blaster": true,
+                    "scope": true,
+                    "custom_model_data": 222102,
                     "shoot_time": 30,
                     "bloom": 20,
                     "bolt": {
