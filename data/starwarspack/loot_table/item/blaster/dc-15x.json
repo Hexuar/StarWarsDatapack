@@ -24,6 +24,7 @@
                 "starwarspack": {
                     "right_click": true,
                     "blaster": true,
+                    "explode_on_impact": false,
                     "sound": "starwarspack:blaster",
                     "scope": true,
                     "custom_model_data": 222102,

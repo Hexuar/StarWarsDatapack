@@ -24,7 +24,7 @@
                 "starwarspack": {
                     "right_click": true,
                     "blaster": true,
-                    "rocket_launcher": true,
+                    "explode_on_impact": true,
                     "sound": "starwarspack:rocket_launch",
                     "shoot_time": 20,
                     "bloom": 20,
