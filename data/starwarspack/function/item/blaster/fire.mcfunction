@@ -2,6 +2,4 @@ $execute if score @s starwarspack.shoot_time matches ..$(shoot_time) run return 
 
 execute anchored eyes positioned ^ ^ ^0.5 run function starwarspack:entity/blaster_bolt/summon with entity @s SelectedItem.components.minecraft:custom_data.starwarspack
 
-playsound starwarspack:blaster player @a ~ ~ ~
-
 scoreboard players set @s starwarspack.shoot_time 0

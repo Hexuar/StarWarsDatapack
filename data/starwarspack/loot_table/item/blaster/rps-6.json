@@ -24,12 +24,14 @@
                 "starwarspack": {
                     "right_click": true,
                     "blaster": true,
-                    "shoot_time": 5,
+                    "rocket_launcher": true,
+                    "sound": "starwarspack:rocket_launch",
+                    "shoot_time": 20,
                     "bloom": 20,
                     "bolt": {
-                      "color": "[1f, 0f, 0f]",
-                      "damage": 5,
-                      "scale": 0.25
+                      "color": "[0.5f, 0.5f, 0.5f]",
+                      "damage": 0,
+                      "scale": 1
                     }
                 }
               }

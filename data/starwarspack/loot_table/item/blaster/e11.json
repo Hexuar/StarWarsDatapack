@@ -24,6 +24,7 @@
                 "starwarspack": {
                     "right_click": true,
                     "blaster": true,
+                    "sound": "starwarspack:blaster",
                     "shoot_time": 6,
                     "bloom": 20,
                     "bolt": {
