@@ -1,6 +1,6 @@
 function starwarspack:entity/get_id
 
-execute as @n[type=area_effect_cloud,tag=starwarspack.current] run function starwarspack:entity/vehicle/speeder/update_model_position
-data modify entity @n[type=armor_stand,tag=starwarspack.current] Rotation set from entity @s Rotation
+tp @n[type=item_display,tag=starwarspack.current] ~ ~ ~
+data modify entity @n[type=item_display,tag=starwarspack.current] Rotation[0] set from entity @s Rotation[0]
 
 tag @e[tag=starwarspack.current] remove starwarspack.current
