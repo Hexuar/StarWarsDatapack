@@ -1,0 +1,12 @@
+{
+    "type": "starwarspack:kamino",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "starwarspack:kamino",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "starwarspack:kamino"
+      }
+    }
+  }
+  

@@ -1,0 +1,11 @@
+{
+  "type": "starwarspack:hoth",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "starwarspack:hoth",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "starwarspack:hoth"
+    }
+  }
+}
