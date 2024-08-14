@@ -12,7 +12,7 @@
                 "components": {
                   "minecraft:item_name": "{\"translate\":\"item.smoke_grenade\"}",
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 2220207,
+                  "minecraft:custom_model_data": 2220213,
                   "minecraft:custom_data": {
                     "starwarspack": {
                         "grenade": true,

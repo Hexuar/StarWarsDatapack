@@ -12,7 +12,7 @@
                 "components": {
                   "minecraft:item_name": "{\"translate\":\"item.dioxis_grenade\"}",
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 2220205,
+                  "minecraft:custom_model_data": 2220211,
                   "minecraft:custom_data": {
                     "starwarspack": {
                         "grenade": true,

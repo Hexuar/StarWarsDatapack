@@ -12,7 +12,7 @@
                 "components": {
                   "minecraft:item_name": "{\"translate\":\"item.flash_grenade\"}",
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 2220206,
+                  "minecraft:custom_model_data": 2220212,
                   "minecraft:custom_data": {
                     "starwarspack": {
                         "grenade": true,
