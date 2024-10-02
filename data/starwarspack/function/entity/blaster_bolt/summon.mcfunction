@@ -1,4 +1,4 @@
-$summon marker ~ ~ ~ {Tags:["starwarspack.entity","starwarspack.blaster_bolt","starwarspack.new"],data:$(bolt)}
+$summon marker ~ ~ ~ {CustomName:'{"text":"Blaster Bolt"}',Tags:["starwarspack.entity","starwarspack.blaster_bolt","starwarspack.new"],data:$(bolt)}
 
 # Owner
 data modify entity @e[type=marker,tag=starwarspack.new,sort=nearest,limit=1,distance=..4] data.owner set from entity @s UUID

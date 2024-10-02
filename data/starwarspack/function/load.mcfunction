@@ -1,8 +1,13 @@
+# Scoreboards
 scoreboard objectives add starwarspack.value dummy
 scoreboard objectives add starwarspack.const dummy
 scoreboard objectives add starwarspack.id dummy
 scoreboard objectives add starwarspack.shoot_time dummy
 scoreboard objectives add starwarspack.fuse dummy
+
+
+# Ship Data
+function starwarspack:load_ship_data
 
 
 # Constants
