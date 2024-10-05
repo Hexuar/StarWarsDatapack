@@ -10,8 +10,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"text\":\"Kyberite Ore\"}",
-                  "minecraft:custom_model_data": 2220200,
+                  "minecraft:item_name": "{\"text\":\"Weapons Table\"}",
+                  "minecraft:custom_model_data": 2220203,
                   "minecraft:entity_data": {
                     "id": "minecraft:item_frame",
                     "Silent": true,
@@ -20,16 +20,11 @@
                     "Item": {
                         "id": "minecraft:item_frame",
                         "components": {
-                            "minecraft:custom_model_data": 2220200,
+                            "minecraft:custom_model_data": 2220203,
                             "minecraft:custom_data": {
-                                "block": "minecraft:stone",
+                                "block": "minecraft:barrel",
                                 "sound": "block.stone.place",
-                                "loot_table": "starwars:item/kyber_crystal/white",
-                                "silk_loot_table": "starwars:block/kyberite_ore",
-                                "xp": {
-                                  "min": 3,
-                                  "max": 10
-                                }
+                                "loot_table": "starwars:block/weapons_table"
                             }
                         }
                     }

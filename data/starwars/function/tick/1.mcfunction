@@ -12,8 +12,8 @@ execute as @e[type=item_frame,tag=starwars.place_block] at @s align xyz position
 execute at @a as @e[type=item_display,tag=starwars.block,distance=..16] at @s run function starwars:block/tick with entity @s item.components."minecraft:custom_data"
 
 # Dimension Block
-execute at @a run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:end_portal
-execute at @a run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:nether_portal
+execute if score #nether_enabled starwars.value matches 0 at @a run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:nether_portal
+execute if score #end_enabled starwars.value matches 0 at @a run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:end_portal
 
 # WASD
 execute as @a if predicate starwars:is_driving run function starwars:wasd/get_input
