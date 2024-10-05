@@ -1,0 +1,1 @@
+$execute as @e[type=marker,tag=starwars.new] run tp @s ~ ~ ~ ~$(rx) ~$(ry)

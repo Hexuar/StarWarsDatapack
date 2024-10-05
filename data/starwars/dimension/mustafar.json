@@ -1,0 +1,11 @@
+{
+  "type": "starwars:mustafar",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "starwars:mustafar",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "starwars:mustafar"
+    }
+  }
+}

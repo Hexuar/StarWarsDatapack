@@ -31,7 +31,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "starwarspack:item/kyber_crystal/white",
+                "value": "starwars:item/kyber_crystal/white",
                 "functions": [
                   {
                     "function": "minecraft:explosion_decay"

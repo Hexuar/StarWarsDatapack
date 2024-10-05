@@ -1,1 +1,0 @@
-$execute unless block ~ ~ ~ $(block) run function starwarspack:block/break with entity @s item.components."minecraft:custom_data"

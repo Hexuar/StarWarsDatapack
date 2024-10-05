@@ -1,0 +1,1 @@
+execute if entity @s[tag=starwars.vehicle.speeder] run function starwars:entity/vehicle/speeder/tick

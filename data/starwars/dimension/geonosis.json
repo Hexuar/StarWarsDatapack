@@ -1,0 +1,11 @@
+{
+  "type": "starwars:geonosis",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "starwars:geonosis",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "starwars:geonosis"
+    }
+  }
+}

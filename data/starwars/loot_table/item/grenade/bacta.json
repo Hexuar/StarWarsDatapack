@@ -1,0 +1,31 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"item.bacta_grenade\"}",
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 222010,
+                  "minecraft:custom_data": {
+                    "starwars": {
+                        "grenade": true,
+                        "fuse": 60,
+                        "event": "summon area_effect_cloud ~ ~ ~ {Particle:{type:\"entity_effect\"},Radius:5f,RadiusPerTick:-0.05f,Duration:9999,potion_contents:{custom_color:3604452,custom_effects:[{id:\"minecraft:regeneration\",amplifier:0,duration:200}]}}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

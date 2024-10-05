@@ -1,0 +1,12 @@
+{
+    "type": "starwars:tatooine",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "starwars:tatooine",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "starwars:tatooine"
+      }
+    }
+  }
+  

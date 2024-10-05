@@ -1,0 +1,11 @@
+{
+  "type": "starwars:kashyyyk",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "starwars:kashyyyk",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "starwars:kashyyyk"
+    }
+  }
+}

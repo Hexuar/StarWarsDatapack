@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.blaster.e11",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 222106
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "starwars": {
+                    "right_click": true,
+                    "blaster": true,
+                    "explode_on_impact": false,
+                    "sound": "starwars:blaster",
+                    "shoot_time": 6,
+                    "bloom": 20,
+                    "bolt": {
+                      "color": "[1f, 0f, 0f]",
+                      "damage": 6,
+                      "scale": 0.25
+                    }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "eat_seconds": 1e+38,
+                  "can_always_eat": true
+                },
+                "!minecraft:tool": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+  
