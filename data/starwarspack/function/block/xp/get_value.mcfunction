@@ -1,0 +1,11 @@
+execute if score #xp starwarspack.value matches 2477.. run return 2477
+execute if score #xp starwarspack.value matches 1237.. run return 1237
+execute if score #xp starwarspack.value matches 617.. run return 617
+execute if score #xp starwarspack.value matches 307.. run return 307
+execute if score #xp starwarspack.value matches 149.. run return 149
+execute if score #xp starwarspack.value matches 73.. run return 73
+execute if score #xp starwarspack.value matches 37.. run return 37
+execute if score #xp starwarspack.value matches 17.. run return 17
+execute if score #xp starwarspack.value matches 7.. run return 7
+execute if score #xp starwarspack.value matches 3.. run return 3
+execute if score #xp starwarspack.value matches 1.. run return 1

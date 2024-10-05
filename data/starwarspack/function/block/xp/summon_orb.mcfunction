@@ -1,0 +1,1 @@
+$summon experience_orb ~ ~ ~ {Value:$(value),Motion:[$(x),$(y),$(z)]}
