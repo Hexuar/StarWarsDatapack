@@ -11,7 +11,8 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:item_name": "{\"text\":\"Kyber Crystal\"}",
-                  "minecraft:custom_model_data": 2220200
+                  "minecraft:rarity": "rare",
+                  "minecraft:custom_model_data": 2220207
                 }
               }
             ]
