@@ -1,13 +1,13 @@
 {
-  "type": "starwars:hoth",
+  "type": "starwars:ilum",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "starwars:hoth",
+    "settings": "starwars:ilum",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "starwars:hoth",
+          "biome": "starwars:ilum",
           "parameters": {
             "temperature": [-1,1],
             "humidity": [-1,1],
@@ -19,7 +19,7 @@
           }
         },
         {
-          "biome": "starwars:hoth",
+          "biome": "starwars:ilum",
           "parameters": {
             "temperature": [-1,1],
             "humidity": [-1,1],
