@@ -4,6 +4,7 @@ scoreboard objectives add starwars.const dummy
 scoreboard objectives add starwars.id dummy
 scoreboard objectives add starwars.shoot_time dummy
 scoreboard objectives add starwars.fuse dummy
+scoreboard objectives add starwars.ship_speed dummy
 
 
 # Ship Data

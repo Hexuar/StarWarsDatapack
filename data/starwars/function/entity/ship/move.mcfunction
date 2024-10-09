@@ -1,0 +1,1 @@
+$tp @e[tag=starwars.current,distance=..16] ^ ^ ^$(speed)
