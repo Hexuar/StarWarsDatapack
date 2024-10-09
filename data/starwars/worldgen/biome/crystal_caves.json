@@ -17,10 +17,8 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": [
-    "minecraft:cave",
-    "minecraft:cave_extra_underground",
-    "minecraft:canyon"
-  ],
+      "minecraft:cave"
+    ],
   "features": [
     [
     ],
@@ -50,7 +48,10 @@
     ],
     [],
     [],
-    [],
+    [
+      "starwars:ilum/crystal_patch",
+      "starwars:ilum/ceiling_crystal_patch"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]
