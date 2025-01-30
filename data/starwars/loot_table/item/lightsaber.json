@@ -20,15 +20,20 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": {}
+              "tag": {
+                "starwars": {
+                    "right_click": true,
+                    "lightsaber": true
+                }
+              }
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true
+                "minecraft:consumable": {
+                  "consume_seconds": 1e+38,
+                  "animation": "none",
+                  "has_consume_particles": false
                 },
                 "!minecraft:tool": {},
                 "minecraft:unbreakable": {},
