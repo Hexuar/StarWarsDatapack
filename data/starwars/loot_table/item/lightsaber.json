@@ -15,10 +15,6 @@
               }
             },
             {
-              "function": "minecraft:set_custom_model_data",
-              "value": 222000
-            },
-            {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
@@ -35,6 +31,7 @@
                   "animation": "none",
                   "has_consume_particles": false
                 },
+                "item_model": "starwars:lightsaber",
                 "!minecraft:tool": {},
                 "minecraft:unbreakable": {},
                 "minecraft:attribute_modifiers": {

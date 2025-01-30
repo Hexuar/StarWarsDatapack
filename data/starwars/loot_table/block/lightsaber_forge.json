@@ -11,7 +11,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:item_name": "{\"text\":\"Lightsaber Forge\"}",
-                  "minecraft:custom_model_data": 2220201,
+                  "item_model": "starwars:block/lightsaber_forge",
                   "minecraft:entity_data": {
                     "id": "minecraft:item_frame",
                     "Silent": true,
@@ -20,7 +20,7 @@
                     "Item": {
                         "id": "minecraft:item_frame",
                         "components": {
-                            "minecraft:custom_model_data": 2220201,
+                            "item_model": "starwars:block/lightsaber_forge",
                             "minecraft:custom_data": {
                                 "block": "minecraft:barrel",
                                 "sound": "block.stone.place",

@@ -1,6 +1,6 @@
 {
   "temperature": 0.5,
-  "downfall": 1.0,
+  "downfall": 1,
   "has_precipitation": true,
   "effects": {
     "sky_color": 5020012,
@@ -13,12 +13,17 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "music": {
-      "sound": "minecraft:music.overworld.swamp",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "minecraft:music.overworld.swamp",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
+        }
+      }
+    ]
   },
   "spawners": {},
   "spawn_costs": {},
@@ -34,7 +39,7 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"      
+      "minecraft:amethyst_geode"
     ],
     [],
     [],

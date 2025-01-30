@@ -11,7 +11,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:item_name": "{\"text\":\"Weapons Table\"}",
-                  "minecraft:custom_model_data": 2220203,
+                  "item_model": "starwars:block/weapons_table",
                   "minecraft:entity_data": {
                     "id": "minecraft:item_frame",
                     "Silent": true,
@@ -20,7 +20,7 @@
                     "Item": {
                         "id": "minecraft:item_frame",
                         "components": {
-                            "minecraft:custom_model_data": 2220203,
+                            "item_model": "starwars:block/weapons_table",
                             "minecraft:custom_data": {
                                 "block": "minecraft:barrel",
                                 "sound": "block.stone.place",

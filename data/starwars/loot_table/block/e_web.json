@@ -11,7 +11,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:item_name": "{\"text\":\"E-Web\"}",
-                  "minecraft:custom_model_data": 2220200,
+                  "item_model": "starwars:block/e-web",
                   "minecraft:entity_data": {
                     "id": "minecraft:item_frame",
                     "Silent": true,
@@ -20,7 +20,7 @@
                     "Item": {
                         "id": "minecraft:item_frame",
                         "components": {
-                            "minecraft:custom_model_data": 2220200,
+                            "item_model": "starwars:block/e-web",
                             "minecraft:custom_data": {
                                 "block": "minecraft:barrier",
                                 "sound": "block.stone.place",

@@ -15,10 +15,6 @@
               }
             },
             {
-              "function": "minecraft:set_custom_model_data",
-              "value": 222101
-            },
-            {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
@@ -35,6 +31,7 @@
                   "animation": "bow",
                   "has_consume_particles": false
                 },
+                "item_model": "starwars:blaster/bt_x-42",
                 "!minecraft:tool": {}
               }
             }

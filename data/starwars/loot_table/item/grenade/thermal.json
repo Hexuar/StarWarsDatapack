@@ -12,7 +12,7 @@
                 "components": {
                   "minecraft:item_name": "{\"translate\":\"item.thermal_detonator\"}",
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 2220214,
+                  "item_model": "starwars:grenade/thermal",
                   "minecraft:custom_data": {
                     "starwars": {
                         "grenade": true,

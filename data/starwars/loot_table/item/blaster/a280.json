@@ -15,10 +15,6 @@
               }
             },
             {
-              "function": "minecraft:set_custom_model_data",
-              "value": 222100
-            },
-            {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
@@ -44,6 +40,7 @@
                   "animation": "bow",
                   "has_consume_particles": false
                 },
+                "item_model": "starwars:blaster/a280",
                 "!minecraft:tool": {}
               }
             }
