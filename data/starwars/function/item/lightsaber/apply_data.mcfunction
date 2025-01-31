@@ -1,1 +1,1 @@
-$item modify entity @s weapon [{"function":"minecraft:set_components","value":"","components":{"minecraft:dyed_color":{"rgb":$(dyed_color)}}},{"function":"minecraft:set_custom_data",tag:{starwars:{lit:$(lit)}}}]
+$item modify entity @s weapon [{"function":"minecraft:set_custom_model_data","floats":{"values":[$(lit)],"mode":"replace_section"}},{"function":"minecraft:set_custom_data",tag:{starwars:{lit:$(lit)}}}]
