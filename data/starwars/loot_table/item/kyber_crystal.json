@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": "{\"text\":\"Kyber Crystal\"}",
                 "minecraft:rarity": "rare",
-                "item_model": "starwars:kyber_crystal/white"
+                "item_model": "starwars:kyber_crystal"
               }
             }
           ]

@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "name": "minecraft:amethyst_cluster"
+            },
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:sequence",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:amethyst_shard",
+                      "weight": 10,
+                      "functions": [
+                        {
+                          "function": "minecraft:set_count",
+                          "count": 4,
+                          "add": false
+                        },
+                        {
+                          "function": "minecraft:apply_bonus",
+                          "enchantment": "minecraft:fortune",
+                          "formula": "minecraft:ore_drops"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:loot_table",
+                      "value": "starwars:item/kyber_crystal",
+                      "weight": 1
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#minecraft:cluster_max_harvestables"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 2,
+                      "function": "minecraft:set_count"
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ],
+                  "name": "minecraft:amethyst_shard"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/amethyst_cluster"
+}
