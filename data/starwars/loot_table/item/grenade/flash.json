@@ -1,31 +1,30 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:command_block",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_name": "{\"translate\":\"item.flash_grenade\"}",
-                  "minecraft:rarity": "common",
-                  "item_model": "starwars:grenade/flash",
-                  "minecraft:custom_data": {
-                    "starwars": {
-                        "grenade": true,
-                        "fuse": 60,
-                        "event": "particle minecraft:flash ~ ~ ~ 2 2 2 0 50 force"
-                    }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.flash_grenade\"}",
+                "minecraft:rarity": "common",
+                "item_model": "starwars:grenade/flash",
+                "minecraft:custom_data": {
+                  "starwars": {
+                    "grenade": true,
+                    "fuse": 60,
+                    "event": "particle minecraft:flash ~ ~ ~ 2 2 2 0 50 force"
                   }
                 }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

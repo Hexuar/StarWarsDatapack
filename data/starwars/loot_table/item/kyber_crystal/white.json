@@ -1,24 +1,23 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:command_block",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_name": "{\"text\":\"Kyber Crystal\"}",
-                  "minecraft:rarity": "rare",
-                  "item_model": "starwars:kyber_crystal/white"
-                }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"text\":\"Kyber Crystal\"}",
+                "minecraft:rarity": "rare",
+                "item_model": "starwars:kyber_crystal/white"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

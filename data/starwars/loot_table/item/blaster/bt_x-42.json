@@ -18,8 +18,8 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
-                    "right_click": true,
-                    "flamethrower": true
+                  "right_click": true,
+                  "flamethrower": true
                 }
               }
             },
@@ -41,4 +41,3 @@
     }
   ]
 }
-  

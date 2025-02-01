@@ -1,31 +1,30 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:command_block",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_name": "{\"translate\":\"item.dioxis_grenade\"}",
-                  "minecraft:rarity": "common",
-                  "item_model": "starwars:grenade/dioxis",
-                  "minecraft:custom_data": {
-                    "starwars": {
-                        "grenade": true,
-                        "fuse": 60,
-                        "event": "summon area_effect_cloud ~ ~ ~ {Particle:{type:\"entity_effect\"},Radius:5f,RadiusPerTick:-0.05f,Duration:9999,potion_contents:{custom_color:12189519,custom_effects:[{id:\"minecraft:poison\",amplifier:1,duration:200}]}}"
-                    }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.dioxis_grenade\"}",
+                "minecraft:rarity": "common",
+                "item_model": "starwars:grenade/dioxis",
+                "minecraft:custom_data": {
+                  "starwars": {
+                    "grenade": true,
+                    "fuse": 60,
+                    "event": "summon area_effect_cloud ~ ~ ~ {Particle:{type:\"entity_effect\"},Radius:5f,RadiusPerTick:-0.05f,Duration:9999,potion_contents:{custom_color:12189519,custom_effects:[{id:\"minecraft:poison\",amplifier:1,duration:200}]}}"
                   }
                 }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

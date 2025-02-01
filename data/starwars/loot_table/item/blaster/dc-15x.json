@@ -18,19 +18,19 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
-                    "right_click": true,
-                    "blaster": true,
-                    "explode_on_impact": false,
-                    "sound": "starwars:blaster",
-                    "scope": true,
-                    "custom_model_data": 222102,
-                    "shoot_time": 30,
-                    "bloom": 20,
-                    "bolt": {
-                      "color": "[1f, 0f, 0f]",
-                      "damage": 17,
-                      "scale": 0.25
-                    }
+                  "right_click": true,
+                  "blaster": true,
+                  "explode_on_impact": false,
+                  "sound": "starwars:blaster",
+                  "scope": true,
+                  "custom_model_data": 222102,
+                  "shoot_time": 30,
+                  "bloom": 20,
+                  "bolt": {
+                    "color": "[1f, 0f, 0f]",
+                    "damage": 17,
+                    "scale": 0.25
+                  }
                 }
               }
             },
@@ -52,4 +52,3 @@
     }
   ]
 }
-  

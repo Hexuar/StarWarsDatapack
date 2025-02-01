@@ -18,8 +18,8 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
-                    "right_click": true,
-                    "lightsaber": true
+                  "right_click": true,
+                  "lightsaber": true
                 }
               }
             },
