@@ -1,0 +1,1 @@
+execute if predicate starwars:holding/scroll/force_push run function starwars:item/scroll/use/force_push
