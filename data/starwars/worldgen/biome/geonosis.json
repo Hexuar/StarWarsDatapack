@@ -40,7 +40,8 @@
     [],
     [
       "minecraft:fossil_upper",
-      "minecraft:fossil_lower"
+      "minecraft:fossil_lower",
+      "starwars:geonosis/fossil"
     ],
     [
     ],
@@ -72,7 +73,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:patch_dead_bush_2"
+      "minecraft:patch_dead_bush_2",
+      "starwars:geonosis/spires"
     ],
     [
       "minecraft:freeze_top_layer"

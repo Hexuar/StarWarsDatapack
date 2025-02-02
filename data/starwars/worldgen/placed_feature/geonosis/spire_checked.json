@@ -1,0 +1,17 @@
+{
+  "feature": "starwars:geonosis/spire",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": "red_sand"
+      }
+    }
+  ]
+}
