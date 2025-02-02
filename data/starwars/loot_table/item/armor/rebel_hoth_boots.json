@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "{\"text\":\"Hoth Rebel Boots\"}",
+                "item_model": "starwars:rebel_hoth_boots",
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "starwars:rebel_hoth",
+                  "allowed_entities": "minecraft:player"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

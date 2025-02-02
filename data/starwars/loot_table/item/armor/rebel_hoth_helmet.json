@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "{\"text\":\"Hoth Rebel Helmet\"}",
+                "item_model": "starwars:rebel_hoth_helmet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "starwars:rebel_hoth",
+                  "camera_overlay": "starwars:misc/rebel_hoth_blur",
+                  "allowed_entities": "minecraft:player"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
