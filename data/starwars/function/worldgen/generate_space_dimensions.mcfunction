@@ -1,0 +1,1 @@
+execute in starwars:dagobah_space run function starwars:worldgen/generate_planet {planet:"sphere"}
