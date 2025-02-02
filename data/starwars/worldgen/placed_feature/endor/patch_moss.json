@@ -1,5 +1,5 @@
 {
-    "feature": "starwars:patch_moss",
+    "feature": "starwars:endor/patch_moss",
     "placement": [
       {
         "type": "minecraft:count",

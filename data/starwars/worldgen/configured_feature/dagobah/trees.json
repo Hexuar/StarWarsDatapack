@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": "starwars:dagobah/small_tree_checked"
+      }
+    ],
+    "default": "starwars:dagobah/large_tree_checked"
+  }
+}
