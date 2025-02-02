@@ -19,7 +19,9 @@
               "tag": {
                 "starwars": {
                   "right_click": true,
-                  "lightsaber": true
+                  "lightsaber": true,
+                  "attack_damage": 10,
+                  "attack_speed": -2.4
                 }
               }
             },
@@ -39,7 +41,7 @@
                     {
                       "id": "attack_damage",
                       "type": "minecraft:attack_damage",
-                      "amount": 10,
+                      "amount": 0,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
