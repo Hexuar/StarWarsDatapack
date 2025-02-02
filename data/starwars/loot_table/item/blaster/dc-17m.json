@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.blaster.dc-17m",
+                "translate": "item.starwars.blaster.dc-17m",
                 "italic": false
               }
             },

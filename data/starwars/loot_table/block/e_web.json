@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"E-Web\"}",
-                "item_model": "starwars:block/e-web",
+                "minecraft:item_name": "{\"translate\":\"block.starwars.e_web\"}",
+                "item_model": "starwars:block/e_web",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Silent": true,
@@ -22,7 +22,7 @@
                   "Item": {
                     "id": "minecraft:item_frame",
                     "components": {
-                      "item_model": "starwars:block/e-web",
+                      "item_model": "starwars:block/e_web",
                       "minecraft:custom_data": {
                         "block": "minecraft:barrier",
                         "sound": "block.stone.place",

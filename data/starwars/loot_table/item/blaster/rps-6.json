@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.blaster.rps-6",
+                "translate": "item.starwars.blaster.rps-6",
                 "italic": false
               }
             },

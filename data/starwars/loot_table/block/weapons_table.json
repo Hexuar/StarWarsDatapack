@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Weapons Table\"}",
+                "minecraft:item_name": "{\"translate\":\"block.starwars.weapons_table\"}",
                 "item_model": "starwars:block/weapons_table",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Kyber Crystal\"}",
+                "minecraft:item_name": "{\"translate\":\"item.starwars.kyber_crystal\"}",
                 "minecraft:rarity": "rare",
                 "item_model": "starwars:kyber_crystal"
               }

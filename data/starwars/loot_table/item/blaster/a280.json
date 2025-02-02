@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.blaster.a280",
+                "translate": "item.starwars.blaster.a280",
                 "italic": false
               }
             },

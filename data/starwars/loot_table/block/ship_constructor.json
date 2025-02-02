@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Ship Constructor\"}",
+                "minecraft:item_name": "{\"translate\":\"block.starwars.ship_constructor\"}",
                 "item_model": "starwars:block/ship_constructor",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

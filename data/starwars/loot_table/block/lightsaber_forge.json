@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Lightsaber Forge\"}",
+                "minecraft:item_name": "{\"translate\":\"block.starwars.lightsaber_forge\"}",
                 "item_model": "starwars:block/lightsaber_forge",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
