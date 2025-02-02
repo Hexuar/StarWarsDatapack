@@ -10,9 +10,9 @@
           "biome": "starwars:hoth",
           "parameters": {
             "temperature": [-1,1],
-            "humidity": [0,1],
-            "continentalness": [-1,0],
-            "erosion": [0,1],
+            "humidity": [-1,1],
+            "continentalness": [-1,1],
+            "erosion": [-1,1],
             "weirdness": [-1,1],
             "depth": [-1,0],
             "offset": 0
@@ -22,7 +22,7 @@
           "biome": "starwars:hoth",
           "parameters": {
             "temperature": [0,1],
-            "humidity": [-1,1],
+            "humidity": [0,1],
             "continentalness": [-1,1],
             "erosion": [-1,1],
             "weirdness": [-1,1],
@@ -35,10 +35,10 @@
           "parameters": {
             "temperature": [-1,0],
             "humidity": [-1,0],
-            "continentalness": [0,1],
-            "erosion": [-1,0],
+            "continentalness": [-1,1],
+            "erosion": [-1,1],
             "weirdness": [-1,1],
-            "depth": [-1,0.7],
+            "depth": [0,1],
             "offset": 0
           }
         }
