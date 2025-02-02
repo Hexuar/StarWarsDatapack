@@ -14,3 +14,6 @@ execute at @a as @e[type=item_display,tag=starwars.block,distance=..16] at @s ru
 # Dimension Block
 execute if score #nether_enabled starwars.value matches 0 at @a run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:nether_portal
 execute if score #end_enabled starwars.value matches 0 at @a run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace minecraft:end_portal
+
+# Planet
+execute as @e[type=marker,tag=starwars.planet] at @s run function starwars:worldgen/planet/tick with entity @s data
