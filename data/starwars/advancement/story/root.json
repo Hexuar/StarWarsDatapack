@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "advancements.starwars.story.root.title"
+    },
+    "description": {
+      "translate": "advancements.starwars.story.root.description"
+    },
+    "background": "minecraft:textures/block/black_concrete.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

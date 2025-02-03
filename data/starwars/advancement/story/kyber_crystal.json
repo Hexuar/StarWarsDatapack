@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "kyber_crystal"
+    },
+    "description": {
+      "translate": ""
+    }
+  },
+  "parent": "starwars:story/hyperdrive",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
