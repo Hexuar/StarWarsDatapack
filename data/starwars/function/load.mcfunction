@@ -12,6 +12,12 @@ function starwars:load_ship_data
 scoreboard players set #nether_enabled starwars.value 0
 scoreboard players set #end_enabled starwars.value 0
 
+
+# Worldgen
+execute unless score #planets_generated starwars.value matches 1 run function starwars:worldgen/generate_planets
+scoreboard players set #planets_generated starwars.value 1
+
+
 # Constants
 scoreboard players set #-1 starwars.const -1
 scoreboard players set #0 starwars.const 0

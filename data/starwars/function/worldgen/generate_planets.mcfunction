@@ -1,5 +1,6 @@
 kill @e[type=marker,tag=starwars.planet]
 
+execute in starwars:overworld_space run function starwars:worldgen/planet/generate {dimension:"minecraft:overworld"}
 execute in starwars:dagobah_space run function starwars:worldgen/planet/generate {dimension:"starwars:dagobah"}
 execute in starwars:endor_space run function starwars:worldgen/planet/generate {dimension:"starwars:endor"}
 execute in starwars:geonosis_space run function starwars:worldgen/planet/generate {dimension:"starwars:geonosis"}
