@@ -1,3 +1,5 @@
+tellraw @a {"text":"[Star Wars] Generating planets...","color":"gray"}
+
 kill @e[type=marker,tag=starwars.planet]
 
 execute in starwars:overworld_space run function starwars:worldgen/planet/generate {dimension:"minecraft:overworld"}
@@ -8,3 +10,5 @@ execute in starwars:hoth_space run function starwars:worldgen/planet/generate {d
 execute in starwars:ilum_space run function starwars:worldgen/planet/generate {dimension:"starwars:ilum"}
 execute in starwars:mustafar_space run function starwars:worldgen/planet/generate {dimension:"starwars:mustafar"}
 execute in starwars:tatooine_space run function starwars:worldgen/planet/generate {dimension:"starwars:tatooine"}
+
+tellraw @a {"text":"[Star Wars] Planet generation finished!","color":"gray"}

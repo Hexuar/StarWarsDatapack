@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 25,
+    "xz_spread": 15,
+    "y_spread": 15,
+    "feature": {
+      "feature": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 1000,
+          "xz_spread": 5,
+          "y_spread": 5,
+          "feature": {
+            "feature": {
+              "config": {
+                "to_place": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:stone"
+                  }
+                }
+              },
+              "type": "minecraft:simple_block"
+            },
+            "placement": []
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}
