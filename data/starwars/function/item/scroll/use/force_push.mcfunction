@@ -1,2 +1,2 @@
-execute if predicate starwars:input/sneak run say PULL
-execute unless predicate starwars:input/sneak run say PUSH
+execute if predicate starwars:input/sneak run execute as @e[distance=..10,type=!minecraft:player] at @s facing entity Hexuar feet run tp ^ ^ ^1
+execute unless predicate starwars:input/sneak run execute as @e[distance=..10,type=!minecraft:player] at @s facing entity Hexuar feet run tp ^ ^ ^-1
