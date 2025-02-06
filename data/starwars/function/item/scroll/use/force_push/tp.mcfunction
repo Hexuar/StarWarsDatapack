@@ -1,0 +1,1 @@
+$execute as @e[distance=..$(range),type=!minecraft:player] at @s facing entity Hexuar feet positioned ^ ^ ^$(sign)$(force) if block ^ ^ ^$(sign)0.5 #starwars:transparent run tp ~ ~ ~
