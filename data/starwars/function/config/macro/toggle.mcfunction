@@ -1,0 +1,3 @@
+$execute if score $(value) starwars.value matches 0 run tellraw @s [{"text": " $(title): ", "color": "gray"},{"text": "[Disabled]", "color":"red", "clickEvent": {"action": "run_command", "value": "/function starwars:config/command/toggle {value:\"$(value)\", callback:\"$(callback)\"}"}, "hoverEvent": {"action": "show_text", "value": "Click to toggle"}}]
+
+$execute if score $(value) starwars.value matches 1 run tellraw @s [{"text": " $(title): ", "color": "gray"},{"text": "[Enabled]", "color":"green", "clickEvent": {"action": "run_command", "value": "/function starwars:config/command/toggle {value:\"$(value)\", callback:\"$(callback)\"}"}, "hoverEvent": {"action": "show_text", "value": "Click to toggle"}}]

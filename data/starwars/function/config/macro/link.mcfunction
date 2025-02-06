@@ -1,0 +1,1 @@
+$tellraw @s {"text": "\n[$(title)]", "color":"white", "hoverEvent": {"action": "show_text", "value": "Click to go to $(title)"}, "clickEvent": {"action": "run_command", "value": "/function starwars:config/$(page)"}}
