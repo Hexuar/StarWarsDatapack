@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "starwars:item/right_click"
+    "function": "starwars:item/right_click/held"
   }
 }
