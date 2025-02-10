@@ -1,9 +1,9 @@
-forceload add -3 -3 2 2
+forceload add -64 -64 64 64
 
 # Load planet structure
-function starwars:worldgen/planet/load_structure {planet:"sphere"}
+$execute positioned -48 -48 -48 run place template starwars:planets/$(planet)
 
 # Summon planet marker
 $function starwars:worldgen/planet/summon_core {dimension:"$(dimension)"}
 
-forceload remove -3 -3 2 2
+forceload remove -64 -64 64 64
