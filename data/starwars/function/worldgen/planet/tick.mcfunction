@@ -1,1 +1,1 @@
-$execute as @a[distance=..64] in $(dimension) run tp @s 0.0 320 0.0
+$execute as @a[distance=..64] in $(dimension) run function starwars:worldgen/planet/travel {y:320}
