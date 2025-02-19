@@ -3,3 +3,6 @@ execute if entity @p[distance=..1] if entity @s[tag=starwars.ship] run function 
 
 # Vehicle
 execute if entity @s[tag=starwars.vehicle] run function starwars:entity/vehicle/tick
+
+# Mob
+execute if entity @s[tag=starwars.mob] run function starwars:entity/mob/tick

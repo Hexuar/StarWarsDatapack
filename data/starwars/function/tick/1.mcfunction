@@ -5,7 +5,7 @@ function starwars:item/tick
 execute as @e[type=marker,tag=starwars.blaster_bolt] at @s run function starwars:entity/blaster_bolt/tick
 
 # Entity
-execute at @a as @e[tag=starwars.entity,distance=..16] at @s run function starwars:entity/tick
+execute as @e[tag=starwars.entity] at @s run function starwars:entity/tick
 
 # Block
 execute at @a as @e[type=item_frame,tag=starwars.place_block,distance=..16] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function starwars:block/place with entity @s Item.components."minecraft:custom_data"
