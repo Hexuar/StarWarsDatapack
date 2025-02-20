@@ -1,5 +1,10 @@
-summon wandering_trader ~ ~ ~ {Silent:1b,CustomNameVisible:0b,Tags:["starwars.new","starwars.entity","starwars.entity_root","starwars.mob","starwars.jawa"],CustomName:'"Jawa"',active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],Offers:{Recipes:[{buy:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_data":{starwars:{credit:1b}},"minecraft:item_name":'{"translate":"item.starwars.credit"}',"minecraft:item_model":"starwars:credit","minecraft:rarity":"common"}},sell:{id:"minecraft:stick",count:1}}]}}
+# Root Entity
+summon villager ~ ~ ~ {Silent:1b,CustomNameVisible:0b,Tags:["starwars.new","starwars.entity","starwars.entity_root","starwars.mob","starwars.jawa"],CustomName:'"Jawa"',active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],VillagerData:{"profession":"armorer",level:99}}
 
+# Model
 summon item_display ~ ~ ~ {Tags:["starwars.new","starwars.entity"],item:{id:"minecraft:command_block",components:{"minecraft:item_model":"starwars:entity/mob/jawa"}},teleport_duration:1,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.5f,0.0f]}}
+
+# Trades
+execute as @e[type=villager,tag=starwars.new] run function starwars:entity/mob/trader/apply_trades {entity:"jawa"}
 
 function starwars:entity/mob/summon

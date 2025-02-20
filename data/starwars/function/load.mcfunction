@@ -27,6 +27,9 @@ scoreboard players set #57295 starwars.const 57295
 # Constants
 scoreboard players set #MAX_SHOOT_TIME starwars.const 200
 
+# Trades
+function starwars:entity/mob/trader/load_trades
+
 # First Load
 execute unless score #loaded starwars.value matches 1 run function starwars:first_load
 scoreboard players set #loaded starwars.value 1
