@@ -2,8 +2,7 @@
 execute as @a[scores={starwars.shoot_time=0..}] if score @s starwars.shoot_time < #MAX_SHOOT_TIME starwars.const run scoreboard players add @s starwars.shoot_time 1
 
 # Sniper check
-execute as @a if predicate starwars:holding/blaster_scope if predicate starwars:sneaking run function starwars:item/blaster/apply_zoom
-execute as @a if predicate starwars:holding/blaster_scope unless predicate starwars:sneaking run function starwars:item/blaster/remove_zoom
+execute as @a if predicate starwars:holding/blaster_scope if predicate starwars:sneaking run effect give @s slowness 1 6 true
 
 # Grenade
 execute at @a as @e[type=item,tag=!starwars.grenade,nbt={Item:{count:1,components:{"minecraft:custom_data":{starwars:{grenade:1b}}}}},distance=..16] run function starwars:item/grenade/init with entity @s Item.components."minecraft:custom_data".starwars

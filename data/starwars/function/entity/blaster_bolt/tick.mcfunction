@@ -1,5 +1,5 @@
 scoreboard players add @s starwars.shoot_time 1
-execute if score @s starwars.shoot_time matches 50 run function starwars:entity/blaster_bolt/kill
+execute if score @s starwars.shoot_time matches 500 run function starwars:entity/blaster_bolt/kill
 
 scoreboard players set #index starwars.value 0
 function starwars:entity/blaster_bolt/move_ray

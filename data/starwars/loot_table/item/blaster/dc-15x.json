@@ -23,12 +23,11 @@
                   "explode_on_impact": false,
                   "sound": "starwars:blaster",
                   "scope": true,
-                  "custom_model_data": 222102,
                   "shoot_time": 30,
-                  "bloom": 20,
+                  "bloom": 0,
                   "bolt": {
                     "color": "[1f, 0f, 0f]",
-                    "damage": 17,
+                    "damage": 20,
                     "scale": 0.25
                   }
                 }
@@ -39,7 +38,7 @@
               "components": {
                 "minecraft:consumable": {
                   "consume_seconds": 1e+38,
-                  "animation": "bow",
+                  "animation": "none",
                   "has_consume_particles": false
                 },
                 "item_model": "starwars:blaster/dc-15x",
