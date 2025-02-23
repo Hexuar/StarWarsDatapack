@@ -1,6 +1,8 @@
-execute if score #index starwars.value matches 10.. run return 0
+execute if score #index starwars.value >= #BLASTER_BOLT_SPEED starwars.const run return 0
 scoreboard players add #index starwars.value 1
 
-execute positioned ^ ^ ^0.2 run function starwars:entity/blaster_bolt/check_and_particle with entity @s data
+tp @s ^ ^ ^0.2
 
-execute positioned ^ ^ ^0.2 run function starwars:entity/blaster_bolt/move_ray
+execute at @s run function starwars:entity/blaster_bolt/check_and_particle with entity @s data
+
+execute at @s run function starwars:entity/blaster_bolt/move_ray

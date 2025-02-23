@@ -20,12 +20,14 @@ scoreboard players set #10000000 starwars.const 10000000
 
 scoreboard players set #4 starwars.const 4
 scoreboard players set #90 starwars.const 90
+scoreboard players set #180 starwars.const 180
 scoreboard players set #360 starwars.const 360
 scoreboard players set #-46496 starwars.const -46496
 scoreboard players set #57295 starwars.const 57295
 
 # Constants
 scoreboard players set #MAX_SHOOT_TIME starwars.const 200
+scoreboard players set #BLASTER_BOLT_SPEED starwars.const 10
 
 # Trades
 function starwars:entity/mob/trader/load_trades
