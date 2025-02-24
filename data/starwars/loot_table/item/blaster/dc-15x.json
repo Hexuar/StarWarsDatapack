@@ -28,7 +28,8 @@
                   "bolt": {
                     "color": "[1f, 0f, 0f]",
                     "damage": 20,
-                    "scale": 0.25
+                    "scale": 0.25,
+                    "texture": "red"
                   }
                 }
               }
