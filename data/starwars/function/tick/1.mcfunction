@@ -2,7 +2,7 @@
 function starwars:item/tick
 
 # Blaster Bolt
-execute as @e[type=marker,tag=starwars.blaster_bolt] at @s run function starwars:entity/blaster_bolt/tick
+execute as @e[type=item_display,tag=starwars.blaster_bolt] at @s run function starwars:entity/blaster_bolt/tick
 
 # Entity
 execute as @e[tag=starwars.entity] at @s run function starwars:entity/tick

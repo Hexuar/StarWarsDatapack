@@ -3,6 +3,6 @@ scoreboard players add #index starwars.value 1
 
 tp @s ^ ^ ^0.2
 
-execute at @s run function starwars:entity/blaster_bolt/check_and_particle with entity @s data
+execute at @s run function starwars:entity/blaster_bolt/check_and_particle with entity @s item.components."minecraft:custom_data"
 
 execute at @s run function starwars:entity/blaster_bolt/move_ray

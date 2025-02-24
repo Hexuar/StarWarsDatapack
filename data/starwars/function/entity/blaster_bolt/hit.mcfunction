@@ -2,4 +2,4 @@ execute if entity @s[tag=!starwars.explode_on_impact] if block ~ ~ ~ #starwars:r
 execute if entity @s[tag=!starwars.explode_on_impact] if block ~ ~ ~ #starwars:reflective run return 0
 
 execute if entity @s[tag=starwars.explode_on_impact] run summon tnt
-kill @e[type=marker,tag=starwars.blaster_bolt,sort=nearest,limit=1]
+kill @e[type=item_display,tag=starwars.blaster_bolt,sort=nearest,limit=1]
