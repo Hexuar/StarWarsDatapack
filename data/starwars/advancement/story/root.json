@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:cobblestone"
+      "id": "minecraft:cobblestone",
+      "components": {
+        "item_model": "starwars:pack"
+      }
     },
     "title": {
       "translate": "advancements.starwars.story.root.title"

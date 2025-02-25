@@ -5,14 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:command_block",
+          "name": "minecraft:leather_helmet",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "{\"translate\":\"item.starwars.kyber_crystal\"}",
                 "minecraft:rarity": "rare",
-                "item_model": "starwars:kyber_crystal"
+                "item_model": "starwars:kyber_crystal",
+                "!equippable": {},
+                "!attribute_modifiers": {}
               }
             }
           ]
