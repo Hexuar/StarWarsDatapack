@@ -8,13 +8,6 @@
           "name": "minecraft:diamond_sword",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.starwars.lightsaber",
-                "italic": false
-              }
-            },
-            {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
@@ -28,6 +21,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_name": "{\"translate\":\"item.starwars.lightsaber\"}",
                 "minecraft:consumable": {
                   "consume_seconds": 1e+38,
                   "animation": "none",
