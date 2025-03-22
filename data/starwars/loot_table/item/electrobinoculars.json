@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spyglass",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.starwars.electrobinoculars\"}",
+                "minecraft:item_model": "starwars:electrobinoculars"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
