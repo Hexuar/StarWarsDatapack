@@ -8,7 +8,7 @@ data modify entity @e[type=item_display,tag=starwars.new,distance=..1,sort=neare
 $playsound $(sound) block @a ~ ~ ~
 
 # Block
-$setblock ~ ~ ~ $(block)
+$setblock ~ ~ ~ $(block){CustomName:'$(name)'}
 
 tag @e[type=item_display,tag=starwars.new,distance=..1,sort=nearest,limit=1] remove starwars.new
 kill @s

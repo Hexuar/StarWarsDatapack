@@ -26,7 +26,8 @@
                       "minecraft:custom_data": {
                         "block": "minecraft:barrel",
                         "sound": "block.stone.place",
-                        "loot_table": "starwars:block/weapons_table"
+                        "loot_table": "starwars:block/weapons_table",
+                        "name": "{\"translate\":\"block.starwars.weapons_table\"}"
                       }
                     }
                   }

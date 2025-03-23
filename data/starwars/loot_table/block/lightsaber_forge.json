@@ -26,7 +26,8 @@
                       "minecraft:custom_data": {
                         "block": "minecraft:barrel",
                         "sound": "block.stone.place",
-                        "loot_table": "starwars:block/lightsaber_forge"
+                        "loot_table": "starwars:block/lightsaber_forge",
+                        "name": "{\"translate\":\"block.starwars.lightsaber_forge\"}"
                       }
                     }
                   }
