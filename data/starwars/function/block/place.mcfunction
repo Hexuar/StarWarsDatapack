@@ -1,4 +1,4 @@
-summon item_display ~ ~ ~ {Tags:["starwars.block","starwars.new"],brightness:{sky:15,block:0}}
+$summon item_display ~ ~ ~ {Tags:["starwars.block","starwars.new","$(id)"],brightness:{sky:15,block:0}}
 
 # Data
 data modify entity @e[type=item_display,tag=starwars.new,distance=..1,sort=nearest,limit=1] transformation.scale set value [1.01f,1.01f,1.01f]

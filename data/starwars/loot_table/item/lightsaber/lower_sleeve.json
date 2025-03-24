@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.starwars.lower_sleeve\"}",
+                "minecraft:item_model": "starwars:lightsaber/lower_sleeve",
+                "minecraft:rarity": "common",
+                "custom_model_data": {
+                  "strings": ["luke"]
+                },
+                "minecraft:custom_data": {
+                  "starwars": {
+                    "lower_sleeve": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -26,7 +26,8 @@
                       "minecraft:custom_data": {
                         "block": "minecraft:barrier",
                         "sound": "block.stone.place",
-                        "loot_table": "starwars:block/e_web"
+                        "loot_table": "starwars:block/e_web",
+                        "id": "starwars.e_web"
                       }
                     }
                   }

@@ -12,7 +12,12 @@
               "components": {
                 "minecraft:item_name": "{\"translate\":\"item.starwars.kyber_crystal\"}",
                 "minecraft:rarity": "rare",
-                "item_model": "starwars:kyber_crystal",
+                "minecraft:item_model": "starwars:kyber_crystal",
+                "minecraft:custom_data": {
+                  "starwars": {
+                    "kyber_crystal": true
+                  }
+                },
                 "!equippable": {},
                 "!attribute_modifiers": {}
               }
