@@ -1,3 +1,6 @@
+execute unless block ~ ~ ~ #air run function starwars:entity/ship/kill
+
+
 function starwars:entity/get_id
 
 # Rotation
@@ -31,7 +34,7 @@ execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starw
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/jump] if score @s starwars.ship_speed matches ..$(max_speed) run scoreboard players add @s starwars.ship_speed $(acceleration)
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/sprint] if score @s starwars.ship_speed matches $(acceleration).. run scoreboard players remove @s starwars.ship_speed $(acceleration)
 execute store result storage starwars:input speed float 0.01 run scoreboard players get @s starwars.ship_speed
-function starwars:entity/ship/move with storage starwars:input
+execute if entity @p[distance=..16,predicate=starwars:is_driving] run function starwars:entity/ship/move with storage starwars:input
 
 # Update AEC
 execute as @n[type=area_effect_cloud,tag=starwars.current,distance=..16] run function starwars:entity/update_aec
