@@ -19,6 +19,7 @@ scoreboard players set #1000000 starwars.const 1000000
 scoreboard players set #10000000 starwars.const 10000000
 
 scoreboard players set #4 starwars.const 4
+scoreboard players set #16 starwars.value 16
 scoreboard players set #90 starwars.const 90
 scoreboard players set #180 starwars.const 180
 scoreboard players set #360 starwars.const 360
