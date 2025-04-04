@@ -20,3 +20,6 @@ execute store result storage starwars:input attack_speed byte 1 run data get ent
 
 # Modify Item
 function starwars:item/lightsaber/apply_data with storage starwars:input
+
+execute if score #lit starwars.value matches 0 run item modify entity @s weapon {"function":"minecraft:set_custom_model_data","flags":{"values":[false],"mode":"replace_all"}}
+execute if score #lit starwars.value matches 1 run item modify entity @s weapon {"function":"minecraft:set_custom_model_data","flags":{"values":[true],"mode":"replace_all"}}

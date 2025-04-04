@@ -31,6 +31,8 @@ scoreboard players set #57295 starwars.const 57295
 scoreboard players set #MAX_SHOOT_TIME starwars.const 200
 scoreboard players set #BLASTER_BOLT_SPEED starwars.const 10
 
+scoreboard players set #LIGHTSABER_PARTS starwars.const 3
+
 # Trades
 function starwars:entity/mob/trader/load_trades
 
