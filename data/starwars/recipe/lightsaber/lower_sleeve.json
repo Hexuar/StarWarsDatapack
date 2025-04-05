@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "I I",
+    "IDI"
+  ],
+  "key": {
+    "I": [
+      "minecraft:iron_ingot"
+    ],
+    "D": [
+      "minecraft:diamond"
+    ]
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.starwars.lower_sleeve\"}",
+      "minecraft:item_model": "starwars:lightsaber/lower_sleeve",
+      "minecraft:rarity": "common",
+      "minecraft:custom_model_data": {
+        "floats": [
+          1
+        ]
+      },
+      "minecraft:custom_data": {
+        "starwars": {
+          "lower_sleeve": true
+        }
+      }
+    }
+  }
+}

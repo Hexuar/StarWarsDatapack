@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "IGI",
+    "IDI"
+  ],
+  "key": {
+    "I": [
+      "minecraft:iron_ingot"
+    ],
+    "G": [
+      "minecraft:glass"
+    ],
+    "D": [
+      "minecraft:diamond"
+    ]
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.starwars.emitter\"}",
+      "minecraft:item_model": "starwars:lightsaber/emitter",
+      "minecraft:rarity": "common",
+      "minecraft:custom_model_data": {
+        "floats": [
+          1
+        ]
+      },
+      "minecraft:custom_data": {
+        "starwars": {
+          "emitter": true
+        }
+      }
+    }
+  }
+}

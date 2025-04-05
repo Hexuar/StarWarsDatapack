@@ -14,7 +14,7 @@
                 "minecraft:item_model": "starwars:lightsaber/lower_sleeve",
                 "minecraft:rarity": "common",
                 "custom_model_data": {
-                  "floats": [0]
+                  "floats": [1]
                 },
                 "minecraft:custom_data": {
                   "starwars": {

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "starwars": {
+                  "kyber_crystal": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "starwars:lightsaber/emmiter",
+      "starwars:lightsaber/lower_sleeve",
+      "starwars:lightsaber/pommel_cap",
+      "starwars:lightsaber/upper_sleeve"
+    ]
+  }
+}

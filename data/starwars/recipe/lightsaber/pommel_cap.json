@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "III"
+  ],
+  "key": {
+    "I": [
+      "minecraft:iron_ingot"
+    ]
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.starwars.pommel_cap\"}",
+      "minecraft:item_model": "starwars:lightsaber/pommel_cap",
+      "minecraft:rarity": "common",
+      "minecraft:custom_model_data": {
+        "floats": [
+          1
+        ]
+      },
+      "minecraft:custom_data": {
+        "starwars": {
+          "pommel_cap": true
+        }
+      }
+    }
+  }
+}
