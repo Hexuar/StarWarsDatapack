@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.starwars.hyperdrive\"}",
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "starwars:hyperdrive",
+                "minecraft:custom_data": {
+                  "starwars": {
+                    "hyperdrive": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
