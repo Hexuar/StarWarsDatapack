@@ -6,3 +6,6 @@ execute if entity @s[tag=starwars.vehicle] run function starwars:entity/vehicle/
 
 # Mob
 execute if entity @s[tag=starwars.mob] run function starwars:entity/mob/tick
+
+# Hologram
+execute if entity @s[tag=starwars.hologram] run function starwars:entity/hologram/tick

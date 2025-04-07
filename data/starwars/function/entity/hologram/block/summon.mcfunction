@@ -1,1 +1,1 @@
-execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["starwars.entity","starwars.entity_root","starwars.hologram_block"],item:{id:"minecraft:white_stained_glass",components:{"minecraft:item_model":"starwars:block/hologram/iron_block"}}}
+$execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["starwars.entity","starwars.hologram_block","starwars.new"],item:{id:"minecraft:white_stained_glass",components:{"minecraft:item_model":"starwars:block/hologram/$(model)","minecraft:custom_data":{starwars:{block:"$(block)"}}}}}

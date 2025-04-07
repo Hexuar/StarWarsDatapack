@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["starwars.entity","starwars.entity_root","starwars.hologram","starwars.new"]}
