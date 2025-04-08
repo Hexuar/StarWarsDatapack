@@ -1,1 +1,1 @@
-$execute as @a[distance=..64] in $(dimension) run function starwars:worldgen/planet/travel {x:0.0, y:320.0, z:0.0}
+$execute as @e[tag=starwars.ship,distance=..64] in $(dimension) run function starwars:worldgen/planet/travel {x:0.0, y:320.0, z:0.0}
