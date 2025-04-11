@@ -42,7 +42,8 @@
         "minecraft:ore_lapis",
         "minecraft:ore_lapis_buried",
         "minecraft:underwater_magma",
-        "starwars:mustafar/ore_quartz_mustafar"
+        "starwars:mustafar/ore_quartz_mustafar",
+        "starwars:mustafar/ore_zersium"
       ],
       [],
       [],
