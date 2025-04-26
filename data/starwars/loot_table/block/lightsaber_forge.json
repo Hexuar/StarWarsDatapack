@@ -10,7 +10,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"block.starwars.lightsaber_forge\"}",
+                "minecraft:item_name": {
+                  "translate":"block.starwars.lightsaber_forge"
+                },
                 "item_model": "starwars:block/lightsaber_forge",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
@@ -27,7 +29,7 @@
                         "block": "minecraft:barrel",
                         "sound": "block.stone.place",
                         "loot_table": "starwars:block/lightsaber_forge",
-                        "name": "{\"translate\":\"block.starwars.lightsaber_forge\"}",
+                        "name": {"translate":"block.starwars.lightsaber_forge"},
                         "id": "starwars.lightsaber_forge"
                       }
                     }

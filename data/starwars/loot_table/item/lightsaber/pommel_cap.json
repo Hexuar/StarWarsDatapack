@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.pommel_cap\"}",
+                "minecraft:item_name": {"translate":"item.starwars.pommel_cap"},
                 "minecraft:item_model": "starwars:lightsaber/pommel_cap",
                 "minecraft:rarity": "common",
                 "custom_model_data": {

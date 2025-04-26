@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.credit\"}",
+                "minecraft:item_name": {"translate":"item.starwars.credit"},
                 "minecraft:item_model": "starwars:credit",
                 "minecraft:rarity": "common",
                 "custom_data": {

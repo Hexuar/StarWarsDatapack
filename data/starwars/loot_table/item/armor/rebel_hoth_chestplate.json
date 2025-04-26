@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_name": "{\"translate\":\"item.starwars.rebel_hoth_chestplate\"}",
+                "item_name": {"translate":"item.starwars.rebel_hoth_chestplate"},
                 "item_model": "starwars:rebel_hoth_chestplate",
                 "minecraft:equippable": {
                   "slot": "chest",

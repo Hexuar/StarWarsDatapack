@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.smoke_grenade\"}",
+                "minecraft:item_name": {"translate":"item.starwars.smoke_grenade"},
                 "minecraft:rarity": "common",
                 "item_model": "starwars:grenade/smoke",
                 "minecraft:custom_data": {

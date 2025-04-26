@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.lower_sleeve\"}",
+                "minecraft:item_name": {"translate":"item.starwars.lower_sleeve"},
                 "minecraft:item_model": "starwars:lightsaber/lower_sleeve",
                 "minecraft:rarity": "common",
                 "custom_model_data": {

@@ -19,7 +19,7 @@
   "result": {
     "id": "minecraft:command_block",
     "components": {
-      "minecraft:item_name": "{\"translate\":\"item.starwars.emitter\"}",
+      "minecraft:item_name": {"translate":"item.starwars.emitter"},
       "minecraft:item_model": "starwars:lightsaber/emitter",
       "minecraft:rarity": "common",
       "minecraft:custom_model_data": {

@@ -1,4 +1,4 @@
-$summon item_display ~ ~ ~ {CustomName:'{"translate":"entity.starwars.blaster_bolt"}',Tags:["starwars.entity","starwars.entity_root","starwars.blaster_bolt","starwars.new"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"starwars:entity/blaster_bolt","minecraft:custom_model_data":{},"minecraft:custom_data":$(bolt)}},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.0f,0.0f,0.0f],translation:[0.0f,0.0f,0.0f]}}
+$summon item_display ~ ~ ~ {CustomName:{"translate":"entity.starwars.blaster_bolt"},Tags:["starwars.entity","starwars.entity_root","starwars.blaster_bolt","starwars.new"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"starwars:entity/blaster_bolt","minecraft:custom_model_data":{},"minecraft:custom_data":$(bolt)}},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.0f,0.0f,0.0f],translation:[0.0f,0.0f,0.0f]}}
 
 # Owner
 data modify entity @e[type=item_display,tag=starwars.new,sort=nearest,limit=1,distance=..4] item.components."minecraft:custom_data".owner set from entity @s UUID

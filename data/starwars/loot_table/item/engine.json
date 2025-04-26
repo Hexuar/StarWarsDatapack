@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.engine\"}",
+                "minecraft:item_name": {"translate":"item.starwars.engine"},
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_model": "starwars:engine",
                 "minecraft:custom_data": {

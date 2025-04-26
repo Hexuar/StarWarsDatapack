@@ -20,7 +20,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.force_heal\"}",
+                "minecraft:item_name": {"translate":"item.starwars.force_heal"},
                 "item_model": "minecraft:globe_banner_pattern",
                 "minecraft:consumable": {
                   "consume_seconds": 0,

@@ -20,7 +20,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.force_push\"}",
+                "minecraft:item_name": {"translate":"item.starwars.force_push"},
                 "item_model": "minecraft:globe_banner_pattern",
                 "minecraft:consumable": {
                   "consume_seconds": 1e+38,

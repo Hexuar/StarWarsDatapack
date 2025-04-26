@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:command_block",
     "components": {
-      "minecraft:item_name": "{\"translate\":\"item.starwars.pommel_cap\"}",
+      "minecraft:item_name": {"translate":"item.starwars.pommel_cap"},
       "minecraft:item_model": "starwars:lightsaber/pommel_cap",
       "minecraft:rarity": "common",
       "minecraft:custom_model_data": {

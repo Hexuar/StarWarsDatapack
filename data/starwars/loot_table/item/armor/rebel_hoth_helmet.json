@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_name": "{\"translate\":\"item.starwars.rebel_hoth_helmet\"}",
+                "item_name": {"translate":"item.starwars.rebel_hoth_helmet"},
                 "item_model": "starwars:rebel_hoth_helmet",
                 "minecraft:equippable": {
                   "slot": "head",

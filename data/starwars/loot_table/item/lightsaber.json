@@ -21,7 +21,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"item.starwars.lightsaber\"}",
+                "minecraft:item_name": {
+                  "translate":"item.starwars.lightsaber"
+                },
                 "minecraft:consumable": {
                   "consume_seconds": 1e+38,
                   "animation": "none",
@@ -30,24 +32,26 @@
                 "item_model": "starwars:lightsaber",
                 "!minecraft:tool": {},
                 "minecraft:unbreakable": {},
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "id": "attack_damage",
-                      "type": "minecraft:attack_damage",
-                      "amount": 0,
-                      "operation": "add_value",
-                      "slot": "mainhand"
-                    },
-                    {
-                      "id": "attack_speed",
-                      "type": "minecraft:attack_speed",
-                      "amount": -2.4,
-                      "operation": "add_value",
-                      "slot": "mainhand"
-                    }
-                  ],
-                  "show_in_tooltip": false
+                "minecraft:attribute_modifiers":[
+                  {
+                    "id": "attack_damage",
+                    "type": "minecraft:attack_damage",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "attack_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
                 }
               }
             },

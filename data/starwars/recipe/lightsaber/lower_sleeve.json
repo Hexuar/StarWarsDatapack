@@ -16,7 +16,7 @@
   "result": {
     "id": "minecraft:command_block",
     "components": {
-      "minecraft:item_name": "{\"translate\":\"item.starwars.lower_sleeve\"}",
+      "minecraft:item_name": {"translate":"item.starwars.lower_sleeve"},
       "minecraft:item_model": "starwars:lightsaber/lower_sleeve",
       "minecraft:rarity": "common",
       "minecraft:custom_model_data": {

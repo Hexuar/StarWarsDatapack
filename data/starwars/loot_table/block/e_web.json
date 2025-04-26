@@ -10,7 +10,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"block.starwars.e_web\"}",
+                "minecraft:item_name": {
+                  "translate":"block.starwars.e_web"
+                },
                 "item_model": "starwars:block/e_web",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

@@ -14,15 +14,15 @@ execute unless items block ~ ~ ~ container.23 * run function starwars:block/ligh
 
 
 # Spawns buttons
-item replace block ~ ~ ~ container.1 with command_block[item_name='{"translate": "gui.starwars.button.next"}',item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
-item replace block ~ ~ ~ container.2 with command_block[item_name='{"translate": "gui.starwars.button.next"}',item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
-item replace block ~ ~ ~ container.4 with command_block[item_name='{"translate": "gui.starwars.button.next"}',item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
-item replace block ~ ~ ~ container.5 with command_block[item_name='{"translate": "gui.starwars.button.next"}',item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.1 with command_block[item_name={"translate": "gui.starwars.button.next"},item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.2 with command_block[item_name={"translate": "gui.starwars.button.next"},item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.4 with command_block[item_name={"translate": "gui.starwars.button.next"},item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.5 with command_block[item_name={"translate": "gui.starwars.button.next"},item_model="starwars:gui/button_up",rarity="common",custom_data={starwars:{gui:true}}]
 
-item replace block ~ ~ ~ container.19 with command_block[item_name='{"translate": "gui.starwars.button.previous"}',item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
-item replace block ~ ~ ~ container.20 with command_block[item_name='{"translate": "gui.starwars.button.previous"}',item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
-item replace block ~ ~ ~ container.22 with command_block[item_name='{"translate": "gui.starwars.button.previous"}',item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
-item replace block ~ ~ ~ container.23 with command_block[item_name='{"translate": "gui.starwars.button.previous"}',item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.19 with command_block[item_name={"translate": "gui.starwars.button.previous"},item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.20 with command_block[item_name={"translate": "gui.starwars.button.previous"},item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.22 with command_block[item_name={"translate": "gui.starwars.button.previous"},item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
+item replace block ~ ~ ~ container.23 with command_block[item_name={"translate": "gui.starwars.button.previous"},item_model="starwars:gui/button_down",rarity="common",custom_data={starwars:{gui:true}}]
 
 
 # Clears ingredients if item has been taken

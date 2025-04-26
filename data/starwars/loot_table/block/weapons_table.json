@@ -10,7 +10,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"translate\":\"block.starwars.weapons_table\"}",
+                "minecraft:item_name": {
+                  "translate":"block.starwars.weapons_table"
+                },
                 "item_model": "starwars:block/weapons_table",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
@@ -27,7 +29,7 @@
                         "block": "minecraft:barrel",
                         "sound": "block.stone.place",
                         "loot_table": "starwars:block/weapons_table",
-                        "name": "{\"translate\":\"block.starwars.weapons_table\"}",
+                        "name": {"translate":"block.starwars.weapons_table"},
                         "id": "starwars.weapons_table"
                       }
                     }
