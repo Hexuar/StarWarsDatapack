@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:magma_cream",
+    "minecraft:ghast_tear",
+    "minecraft:raw_iron",
+    "minecraft:raw_iron"
+  ],
+  "result": {
+    "id": "minecraft:blaze_powder"
+  }
+}

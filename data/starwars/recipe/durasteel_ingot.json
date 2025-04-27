@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:blaze_powder",
+  "result": {
+    "id": "minecraft:blaze_rod"
+  }
+}
