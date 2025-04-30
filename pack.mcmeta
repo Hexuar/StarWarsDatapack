@@ -11,5 +11,53 @@
         "color": "gold"
       }
     ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe/blaze_powder"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/brewing_stand"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/eye_of_ender"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/fire_charge"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/magma_cream"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/magma_block"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/end_crystal"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/netherite_scrap"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/netherite_scrap_from_blasting"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/netherite_ingot"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/netherite_block"
+      }
+    ]
   }
 }

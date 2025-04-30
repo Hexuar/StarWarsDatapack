@@ -24,7 +24,7 @@
                   "Item": {
                     "id": "minecraft:item_frame",
                     "components": {
-                      "item_model": "starwars:block/lightsaber_forge",
+                      "minecraft:item_model": "starwars:block/lightsaber_forge",
                       "minecraft:custom_data": {
                         "block": "minecraft:barrel",
                         "sound": "block.stone.place",
