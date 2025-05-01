@@ -1,0 +1,1 @@
+$execute positioned ~ ~1 ~ run function starwars:entity/ship/$(ship)/summon_blueprint

@@ -75,8 +75,3 @@ execute if items block ~ ~ ~ container.10 *[custom_data~{starwars:{pommel_cap:tr
 execute unless items block ~ ~ ~ container.16 *[custom_data~{starwars:{lightsaber:true}}] run function starwars:block/return_item {slot:16}
 item replace block ~ ~ ~ container.16 with air
 execute if score #has_ingredients starwars.value matches 1 run function starwars:block/lightsaber_forge/craft
-
-
-# Removes ui item
-clear @a[distance=..16] *[custom_data={starwars:{gui:true}}]
-kill @e[type=item,distance=..16,nbt={Item:{components:{"minecraft:custom_data":{starwars:{gui:true}}}}}]

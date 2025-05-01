@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate":"block.starwars.holoprojector"
+                },
+                "item_model": "starwars:block/holoprojector",
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Silent": true,
+                  "Invisible": true,
+                  "Tags": [
+                    "starwars.place_block"
+                  ],
+                  "Item": {
+                    "id": "minecraft:item_frame",
+                    "components": {
+                      "minecraft:item_model": "starwars:block/holoprojector",
+                      "minecraft:custom_data": {
+                        "block": "minecraft:dropper",
+                        "sound": "block.stone.place",
+                        "loot_table": "starwars:block/holoprojector",
+                        "name": {"translate":"block.starwars.holoprojector"},
+                        "id": "starwars.holoprojector"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

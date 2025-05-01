@@ -1,0 +1,1 @@
+execute positioned ~ ~1 ~ run kill @n[type=marker,tag=starwars.hologram]
