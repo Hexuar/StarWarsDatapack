@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gunpowder"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "starwars:grenade/bacta",
+      "starwars:grenade/dioxis",
+      "starwars:grenade/flash",
+      "starwars:grenade/smoke",
+      "starwars:grenade/thermal"
+    ]
+  }
+}

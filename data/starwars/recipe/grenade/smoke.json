@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "#",
+    "I"
+  ],
+  "key": {
+    "G": "minecraft:gunpowder",
+    "#": "minecraft:charcoal",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.starwars.smoke_grenade"
+      },
+      "minecraft:rarity": "common",
+      "minecraft:item_model": "starwars:grenade/smoke",
+      "minecraft:custom_data": {
+        "starwars": {
+          "grenade": true,
+          "fuse": 60,
+          "event": "particle minecraft:campfire_signal_smoke ~ ~ ~ 2 2 2 0 2000 force"
+        }
+      }
+    },
+    "count": 4
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "minecraft:torch",
+    "K": "minecraft:light_blue_stained_glass",
+    "C": "minecraft:smooth_stone",
+    "D": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "KKK",
+    "DSD",
+    "CCC"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": {
+        "translate": "block.starwars.holoprojector"
+      },
+      "minecraft:item_model": "starwars:block/holoprojector",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Silent": true,
+        "Tags": [
+          "starwars.place_block"
+        ],
+        "Item": {
+          "id": "minecraft:item_frame",
+          "components": {
+            "minecraft:item_model": "starwars:block/holoprojector",
+            "minecraft:custom_data": {
+              "block": "minecraft:barrel",
+              "sound": "block.stone.place",
+              "loot_table": "starwars:block/holoprojector",
+              "name": {
+                "translate": "block.starwars.holoprojector"
+              },
+              "id": "starwars.holoprojector"
+            }
+          }
+        },
+        "Invisible": true
+      }
+    },
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}

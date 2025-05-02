@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.starwars.bacta_grenade"},
                 "minecraft:rarity": "common",
-                "item_model": "starwars:grenade/bacta",
+                "minecraft:item_model": "starwars:grenade/bacta",
                 "minecraft:custom_data": {
                   "starwars": {
                     "grenade": true,
