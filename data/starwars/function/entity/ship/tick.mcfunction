@@ -1,5 +1,5 @@
 ## Collide
-execute unless block ~ ~ ~ #air run function starwars:entity/ship/kill
+execute unless block ~ ~ ~ #air run function starwars:entity/ship/crash
 
 
 ## Hyperspace
