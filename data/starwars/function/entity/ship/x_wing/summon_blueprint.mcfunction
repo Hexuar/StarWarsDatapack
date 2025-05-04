@@ -1,4 +1,4 @@
-function starwars:entity/hologram/summon
+function starwars:entity/hologram/summon {ship:"x_wing"}
 
 execute positioned ~ ~ ~-4 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
 execute positioned ~ ~ ~-3 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
@@ -9,6 +9,7 @@ execute positioned ~ ~1 ~-4 run function starwars:entity/hologram/block/summon {
 execute positioned ~ ~1 ~-3 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
 execute positioned ~ ~1 ~-2 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
 execute positioned ~ ~1 ~-1 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
+execute positioned ~ ~1 ~ run function starwars:entity/hologram/block/summon {model:"glass", block:"glass"}
 
 execute positioned ~ ~-1 ~-4 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_top", block:"iron_trapdoor"}
 execute positioned ~ ~-1 ~-3 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_top", block:"iron_trapdoor"}
