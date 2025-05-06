@@ -1,9 +1,12 @@
 scoreboard players set #rx starwars.value 0
 scoreboard players set #ry starwars.value 0
+
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/forward] run scoreboard players remove #ry starwars.value $(rotational_speed)
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/left] run scoreboard players remove #rx starwars.value $(rotational_speed)
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/backward] run scoreboard players add #ry starwars.value $(rotational_speed)
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/right] run scoreboard players add #rx starwars.value $(rotational_speed)
+execute unless entity @p[distance=..16,predicate=starwars:is_driving] if block ~ ~-3 ~ #air unless score @s starwars.ship_speed matches 0 run scoreboard players add #ry starwars.value 1
+
 execute store result storage starwars:input rx int 1 run scoreboard players get #rx starwars.value
 execute store result storage starwars:input ry int 1 run scoreboard players get #ry starwars.value
 function starwars:macros/rotate with storage starwars:input

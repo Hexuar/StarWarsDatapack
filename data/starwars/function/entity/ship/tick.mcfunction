@@ -23,13 +23,15 @@ $execute unless score @s starwars.hyperspace_cooldown matches ..-1 if entity @p[
 $execute unless score @s starwars.hyperspace_cooldown matches ..-1 if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/sprint] if score @s starwars.ship_speed matches $(acceleration).. run scoreboard players remove @s starwars.ship_speed $(acceleration)
 execute unless score @s starwars.ship_speed matches 0.. run scoreboard players set @s starwars.ship_speed 0
 
+# Gravity
 scoreboard players set #gravity starwars.value 0
 execute if block ~ ~-3 ~ #air if score @s starwars.ship_speed matches 0 run scoreboard players set #gravity starwars.value 40
 execute if block ~ ~-3 ~ #air unless score @s starwars.ship_speed matches 0 unless entity @p[distance=..16,predicate=starwars:is_driving] run scoreboard players set #gravity starwars.value 40
 
+# Apply movement
 execute store result storage starwars:input speed float 0.01 run scoreboard players get @s starwars.ship_speed
 execute store result storage starwars:input gravity float 0.01 run scoreboard players get #gravity starwars.value
-execute unless score @s starwars.ship_speed matches 0 run function starwars:entity/ship/move with storage starwars:input
+function starwars:entity/ship/move with storage starwars:input
 
 
 # Update AEC
