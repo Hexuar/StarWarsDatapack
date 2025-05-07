@@ -5,7 +5,7 @@ $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=star
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/left] run scoreboard players remove #rx starwars.value $(rotational_speed)
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/backward] run scoreboard players add #ry starwars.value $(rotational_speed)
 $execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/right] run scoreboard players add #rx starwars.value $(rotational_speed)
-execute unless entity @p[distance=..16,predicate=starwars:is_driving] if block ~ ~-3 ~ #air unless score @s starwars.ship_speed matches 0 run scoreboard players add #ry starwars.value 1
+execute unless entity @e[type=marker,tag=starwars.planet,distance=0..] unless entity @p[distance=..16,predicate=starwars:is_driving] if score #grounded starwars.value matches 0 unless score @s starwars.ship_speed matches 0 run scoreboard players add #ry starwars.value 1
 
 execute store result storage starwars:input rx int 1 run scoreboard players get #rx starwars.value
 execute store result storage starwars:input ry int 1 run scoreboard players get #ry starwars.value
@@ -20,6 +20,7 @@ scoreboard players operation #pitch starwars.value *= #4 starwars.const
 
 # Model Rotation
 execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=!starwars:input/left,predicate=!starwars:input/right] run data modify entity @s transformation.left_rotation[2] set value 0.0f
+execute unless entity @p[distance=..16,predicate=starwars:is_driving] run data modify entity @s transformation.left_rotation[2] set value 0.0f
 execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/left] store result entity @s transformation.left_rotation[2] float 0.00001 run scoreboard players get #pitch starwars.value
 execute if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/right] store result entity @s transformation.left_rotation[2] float -0.00001 run scoreboard players get #pitch starwars.value
 
