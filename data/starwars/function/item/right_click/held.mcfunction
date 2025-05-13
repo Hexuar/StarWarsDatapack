@@ -9,3 +9,4 @@ execute if predicate starwars:holding/flamethrower anchored eyes run function st
 
 # Scrolls
 execute if predicate starwars:holding/scroll/force_push run function starwars:item/scroll/use/force_push
+execute if predicate starwars:holding/scroll/force_lightning anchored eyes positioned ^ ^ ^0.5 run function starwars:item/scroll/use/force_lightning

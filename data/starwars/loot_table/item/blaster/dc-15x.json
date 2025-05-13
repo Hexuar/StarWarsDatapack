@@ -26,10 +26,12 @@
                   "shoot_time": 30,
                   "bloom": 0,
                   "bolt": {
+                    "particle": "dust",
                     "color": "[1f, 0f, 0f]",
                     "damage": 20,
                     "scale": 0.25,
-                    "texture": "red"
+                    "texture": "red",
+                    "fire": false
                   }
                 }
               }
