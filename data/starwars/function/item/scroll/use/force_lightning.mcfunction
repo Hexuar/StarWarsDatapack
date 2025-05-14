@@ -1,5 +1,5 @@
 # Summon bolt
-function starwars:entity/blaster_bolt/summon {explode_on_impact:false,bloom:100,sound:"minecraft:entity.bee.pollinate",bolt:{particle:"minecraft:electric_spark",color:[],damage:1,scale:0.5,fire:true}}
+function starwars:entity/blaster_bolt/summon {explode_on_impact:false,bloom:200,sound:"minecraft:entity.bee.pollinate",bolt:{particle:"minecraft:electric_spark",color:[],damage:1,scale:0.5,fire:true}}
 
 # Add lightning bolt tag
 tag @n[type=item_display,tag=starwars.blaster_bolt] add starwars.lightning_bolt

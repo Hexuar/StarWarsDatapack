@@ -4,4 +4,4 @@ execute if score @s starwars.shoot_time >= #MAX_SHOOT_TIME starwars.const run fu
 scoreboard players set #index starwars.value 0
 function starwars:entity/blaster_bolt/move_ray
 
-execute if entity @s[tag=starwars.lightning_bolt] run function starwars:entity/blaster_bolt/change_direction
+execute if entity @s[tag=starwars.lightning_bolt] run function starwars:entity/blaster_bolt/change_direction {r:15}
