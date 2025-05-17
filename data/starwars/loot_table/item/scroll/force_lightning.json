@@ -21,14 +21,14 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.starwars.force_lightning"},
-                "item_model": "minecraft:globe_banner_pattern",
+                "minecraft:item_model": "minecraft:globe_banner_pattern",
                 "minecraft:consumable": {
                   "consume_seconds": 1e+38,
                   "animation": "block",
                   "has_consume_particles": false,
                   "sound": "block.amethyst_block.chime"
                 },
-                "max_stack_size": 1
+                "minecraft:max_stack_size": 1
               }
             }
           ]

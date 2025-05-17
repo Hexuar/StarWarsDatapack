@@ -11,3 +11,5 @@ scoreboard players operation @n[type=item_display,tag=starwars.lightning_bolt] s
 
 # Play use sound
 playsound entity.bee.hurt player @a ~ ~ ~ 0.5 1
+
+scoreboard players remove @s starwars.force_stamina 1

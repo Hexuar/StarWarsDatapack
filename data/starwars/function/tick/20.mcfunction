@@ -12,3 +12,6 @@ execute at @e[type=marker,tag=starwars.planet] as @a[distance=0..] run attribute
 
 # Space freezing
 execute at @e[type=marker,tag=starwars.planet] as @a[distance=0..] unless predicate starwars:fully_clothed run damage @s 1 minecraft:freeze
+
+# Restore force stamina
+execute as @a[tag=starwars.restoring_stamina] run scoreboard players operation @s starwars.force_stamina += @s starwars.force_stamina_gain

@@ -21,18 +21,18 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.starwars.force_heal"},
-                "item_model": "minecraft:globe_banner_pattern",
+                "minecraft:item_model": "minecraft:globe_banner_pattern",
                 "minecraft:consumable": {
                   "consume_seconds": 0,
                   "animation": "block",
                   "has_consume_particles": false,
                   "sound": "block.amethyst_block.chime"
                 },
-                "use_cooldown": {
+                "minecraft:use_cooldown": {
                   "seconds": 20,
                   "cooldown_group": "starwars:force_heal"
                 },
-                "max_stack_size": 1
+                "minecraft:max_stack_size": 1
               }
             }
           ]

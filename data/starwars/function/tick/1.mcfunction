@@ -1,3 +1,7 @@
+# Player ID
+execute as @a unless score @s starwars.id matches 1.. run tag @s add starwars.new
+execute as @a unless score @s starwars.id matches 1.. at @s run function starwars:entity/set_id
+
 # Item
 function starwars:item/tick
 
@@ -17,3 +21,8 @@ execute if score #end_enabled starwars.value matches 0 at @a run fill ~-1 ~-1 ~-
 
 # Planet
 execute at @a as @e[type=marker,tag=starwars.planet,distance=..64] at @s run function starwars:worldgen/planet/tick with entity @s data
+
+# Display force stamina
+
+execute as @a[tag=!starwars.restoring_stamina] if score @s starwars.force_stamina < @s starwars.max_force_stamina run tag @s add starwars.restoring_stamina
+execute as @a[tag=starwars.restoring_stamina] run function starwars:display_max_stamina
