@@ -1,7 +1,7 @@
 advancement revoke @s only starwars:right_click/pressed
 
 # Scroll using
-execute if predicate starwars:holding/scroll/force_heal run function starwars:item/scroll/use/force_heal
+execute if score @s starwars.force_stamina matches 1.. if predicate starwars:holding/scroll/force_heal run function starwars:force_power/force_heal
 
 # Return item
 execute if entity @s[gamemode=!creative] run summon item ~ ~ ~ {Tags:["starwars.new"],Item:{id:"minecraft:stone"}}

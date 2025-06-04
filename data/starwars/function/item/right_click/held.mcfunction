@@ -8,5 +8,5 @@ execute if predicate starwars:holding/blaster run function starwars:item/blaster
 execute if predicate starwars:holding/flamethrower anchored eyes run function starwars:item/flamethrower/fire
 
 # Scrolls
-execute if score @s starwars.force_stamina matches 1.. if predicate starwars:holding/scroll/force_push run function starwars:item/scroll/use/force_push
-execute if score @s starwars.force_stamina matches 1.. if predicate starwars:holding/scroll/force_lightning anchored eyes positioned ^ ^ ^0.5 run function starwars:item/scroll/use/force_lightning
+execute if score @s starwars.force_stamina matches 1.. if predicate starwars:holding/scroll/force_push run function starwars:force_power/force_push
+execute if score @s starwars.force_stamina matches 1.. if predicate starwars:holding/scroll/force_lightning anchored eyes positioned ^ ^ ^0.5 run function starwars:force_power/force_lightning
