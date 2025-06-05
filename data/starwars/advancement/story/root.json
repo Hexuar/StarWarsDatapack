@@ -12,7 +12,7 @@
     "description": {
       "translate": "advancements.starwars.story.root.description"
     },
-    "background": "minecraft:textures/block/black_concrete.png"
+    "background": "minecraft:block/black_concrete"
   },
   "criteria": {
     "tick": {

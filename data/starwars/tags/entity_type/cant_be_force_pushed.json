@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:area_effect_cloud",
+    "minecraft:block_display",
+    "minecraft:interaction",
+    "minecraft:item_display",
+    "minecraft:item_frame"
+  ]
+}

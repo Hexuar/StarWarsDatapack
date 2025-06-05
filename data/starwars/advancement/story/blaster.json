@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:nether_star"
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:item_model": "starwars:blaster/dh17"
+      }
     },
     "title": {
       "translate": "blaster"
