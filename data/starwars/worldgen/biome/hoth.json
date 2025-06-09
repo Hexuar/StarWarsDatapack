@@ -2,6 +2,7 @@
   "temperature": 0.0,
   "downfall": 0.5,
   "has_precipitation": true,
+  "creature_spawn_probability": 0.03,
   "effects": {
     "sky_color": 8233983,
     "fog_color": 12638463,
@@ -14,7 +15,22 @@
       "offset": 2
     }
   },
-  "spawners": {},
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 2
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      }
+    ]
+  },
   "spawn_costs": {},
   "carvers": [
     "minecraft:cave",

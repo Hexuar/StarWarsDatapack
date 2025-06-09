@@ -33,6 +33,12 @@
         "maxCount": 3,
         "minCount": 1,
         "weight": 1
+      },
+      {
+        "type": "minecraft:camel",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
       }
     ]
   },
