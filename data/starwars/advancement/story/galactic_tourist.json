@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:item_model": "starwars:entity/ship/aethersprite"
+      }
+    },
+    "title": {
+      "translate": "advancements.starwars.story.galactic_tourist.title"
+    },
+    "description": {
+      "translate": "advancements.starwars.story.galactic_tourist.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "starwars:story/hyperdrive",
+  "criteria": {
+    "dagobah": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:dagobah"
+          }
+        }
+      }
+    },
+    "endor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:endor"
+          }
+        }
+      }
+    },
+    "geonosis": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:geonosis"
+          }
+        }
+      }
+    },
+    "hoth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:hoth"
+          }
+        }
+      }
+    },
+    "ilum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:ilum"
+          }
+        }
+      }
+    },
+    "mustafar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:mustafar"
+          }
+        }
+      }
+    },
+    "tatooine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:tatooine"
+          }
+        }
+      }
+    }
+  }
+}

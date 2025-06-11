@@ -7,16 +7,29 @@
       }
     },
     "title": {
-      "translate": "ship_blueprint"
+      "translate": "advancements.starwars.story.ship_blueprint.title"
     },
     "description": {
-      "translate": ""
+      "translate": "advancements.starwars.story.ship_blueprint.description"
     }
   },
   "parent": "starwars:story/root",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "starwars": {
+                  "blueprint": true
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   }
 }

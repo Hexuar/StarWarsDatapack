@@ -7,17 +7,24 @@
       }
     },
     "title": {
-      "translate": "space"
+      "translate": "advancements.starwars.story.space.title"
     },
     "description": {
-      "translate": ""
+      "translate": "advancements.starwars.story.space.description"
     },
     "frame": "goal"
   },
   "parent": "starwars:story/ship",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "starwars:overworld_space"
+          }
+        }
+      }
     }
   }
 }

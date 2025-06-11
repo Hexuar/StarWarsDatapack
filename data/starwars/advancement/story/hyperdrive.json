@@ -7,16 +7,29 @@
       }
     },
     "title": {
-      "translate": "hyperdrive"
+      "translate": "advancements.starwars.story.hyperdrive.title"
     },
     "description": {
-      "translate": ""
+      "translate": "advancements.starwars.story.hyperdrive.description"
     }
   },
   "parent": "starwars:story/space",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "starwars": {
+                  "hyperdrive": true
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   }
 }

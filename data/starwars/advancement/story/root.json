@@ -12,7 +12,9 @@
     "description": {
       "translate": "advancements.starwars.story.root.description"
     },
-    "background": "minecraft:block/black_concrete"
+    "background": "minecraft:block/black_concrete",
+    "announce_to_chat": false,
+    "show_toast": false
   },
   "criteria": {
     "tick": {

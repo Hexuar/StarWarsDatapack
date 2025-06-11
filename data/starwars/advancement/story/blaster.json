@@ -7,16 +7,29 @@
       }
     },
     "title": {
-      "translate": "blaster"
+      "translate": "advancements.starwars.story.blaster.title"
     },
     "description": {
-      "translate": ""
+      "translate": "advancements.starwars.story.blaster.description"
     }
   },
   "parent": "starwars:story/hyperdrive",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "starwars": {
+                  "blaster": true
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   }
 }

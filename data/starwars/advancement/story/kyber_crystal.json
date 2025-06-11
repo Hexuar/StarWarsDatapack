@@ -7,16 +7,29 @@
       }
     },
     "title": {
-      "translate": "kyber_crystal"
+      "translate": "advancements.starwars.story.kyber_crystal.title"
     },
     "description": {
-      "translate": ""
+      "translate": "advancements.starwars.story.kyber_crystal.description"
     }
   },
   "parent": "starwars:story/hyperdrive",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "starwars": {
+                  "kyber_crystal": true
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   }
 }

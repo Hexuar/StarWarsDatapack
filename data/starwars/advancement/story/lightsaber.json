@@ -10,16 +10,29 @@
       }
     },
     "title": {
-      "translate": "lightsaber"
+      "translate": "advancements.starwars.story.lightsaber.title"
     },
     "description": {
-      "translate": ""
+      "translate": "advancements.starwars.story.lightsaber.description"
     }
   },
   "parent": "starwars:story/kyber_crystal",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "starwars": {
+                  "lightsaber": true
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   }
 }

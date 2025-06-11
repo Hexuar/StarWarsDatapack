@@ -7,16 +7,16 @@
       }
     },
     "title": {
-      "translate": "ship"
+      "translate": "advancements.starwars.story.ship.title"
     },
     "description": {
-      "translate": ""
+      "translate": "advancements.starwars.story.ship.description"
     }
   },
   "parent": "starwars:story/ship_blueprint",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
 }
