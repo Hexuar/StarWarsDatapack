@@ -13,7 +13,7 @@
       "translate": "advancements.starwars.story.kyber_crystal.description"
     }
   },
-  "parent": "starwars:story/hyperdrive",
+  "parent": "starwars:story/ilum",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

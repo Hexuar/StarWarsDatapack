@@ -12,6 +12,11 @@ execute if score @s starwars.hyperspace_cooldown matches 1.. run scoreboard play
 ## Assemble
 function starwars:entity/get_id
 
+# Model state
+execute unless entity @s[tag=starwars.state.active] if entity @p[distance=..16,predicate=starwars:is_driving] if score @s starwars.ship_speed matches 1.. run function starwars:entity/ship/activate
+execute if entity @s[tag=starwars.state.active] unless entity @p[distance=..16,predicate=starwars:is_driving] run function starwars:entity/ship/deactivate
+execute if entity @s[tag=starwars.state.active] unless score @s starwars.ship_speed matches 1.. run function starwars:entity/ship/deactivate
+
 
 # Rotation
 $execute unless score @s starwars.hyperspace_cooldown matches ..-1 run function starwars:entity/ship/handle_rotation {rotational_speed:$(rotational_speed)}
