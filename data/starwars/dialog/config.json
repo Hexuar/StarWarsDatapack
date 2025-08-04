@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "gui.starwars.config"
+  },
+  "body": [],
+  "inputs": [],
+  "actions": [
+    {
+      "label": {"translate": "gui.starwars.config_ships"},
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starwars:config/ships"
+      }
+    }
+  ]
+}

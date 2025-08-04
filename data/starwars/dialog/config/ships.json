@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "gui.starwars.config_ships"
+  },
+  "body": [],
+  "inputs": [],
+  "exit_action": {
+    "label": {
+      "translate": "gui.done"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "starwars:config"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "translate": "entity.starwars.x_wing"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"x_wing\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.aethersprite"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"aethersprite\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.tie_fighter"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"tie_fighter\"}"
+      }
+    }
+  ]
+}

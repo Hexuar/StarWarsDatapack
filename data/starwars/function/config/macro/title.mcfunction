@@ -1,1 +1,0 @@
-$tellraw @s {"text": "---- [ Star Wars Config - $(category) ] ----", "color": "gray"}
