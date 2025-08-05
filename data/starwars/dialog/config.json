@@ -12,6 +12,13 @@
         "type": "minecraft:show_dialog",
         "dialog": "starwars:config/ships"
       }
+    },
+    {
+      "label": {"translate": "gui.starwars.config_dimensions"},
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/dimension"
+      }
     }
   ]
 }
