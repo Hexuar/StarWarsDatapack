@@ -1,2 +1,2 @@
-scoreboard players remove @s starwars.force_stamina 5
+function starwars:force_power/stamina/remove {stamina:5, cooldown:10}
 tag @s remove starwars.grounded

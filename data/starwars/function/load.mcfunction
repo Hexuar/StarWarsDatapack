@@ -9,6 +9,7 @@ scoreboard objectives add starwars.hyperspace_cooldown dummy
 scoreboard objectives add starwars.force_stamina dummy
 scoreboard objectives add starwars.max_force_stamina dummy
 scoreboard objectives add starwars.force_stamina_gain dummy
+scoreboard objectives add starwars.force_stamina_cooldown dummy
 
 # Numbers
 scoreboard players set #-1 starwars.const -1

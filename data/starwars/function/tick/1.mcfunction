@@ -27,8 +27,9 @@ execute if score #end_enabled starwars.value matches 0 at @a run fill ~-1 ~-1 ~-
 execute at @a as @e[type=marker,tag=starwars.planet,distance=..64] at @s run function starwars:worldgen/planet/tick with entity @s data
 
 # Display force stamina
-execute as @a[tag=!starwars.restoring_stamina] if score @s starwars.force_stamina < @s starwars.max_force_stamina run tag @s add starwars.restoring_stamina
-execute as @a[tag=starwars.restoring_stamina] run function starwars:display_max_stamina
+execute as @a[tag=!starwars.restoring_stamina,scores={starwars.force_stamina_cooldown=..0}] if score @s starwars.force_stamina < @s starwars.max_force_stamina run tag @s add starwars.restoring_stamina
+execute as @a[tag=!starwars.restoring_stamina,scores={starwars.force_stamina_cooldown=1..}] run scoreboard players remove @s starwars.force_stamina_cooldown 1
+execute as @a[tag=starwars.restoring_stamina] run function starwars:force_power/stamina/display
 execute as @a[tag=starwars.remove_restoring_stamina] run tag @s remove starwars.restoring_stamina
 execute as @a[tag=starwars.remove_restoring_stamina] run tag @s remove starwars.remove_restoring_stamina
 
