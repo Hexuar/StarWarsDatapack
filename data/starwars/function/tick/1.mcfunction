@@ -34,7 +34,7 @@ execute as @a[tag=starwars.remove_restoring_stamina] run tag @s remove starwars.
 execute as @a[tag=starwars.remove_restoring_stamina] run tag @s remove starwars.remove_restoring_stamina
 
 # Force Jump
-execute as @a[tag=starwars.grounded] if score @s starwars.force_stamina matches 5.. if predicate starwars:input/sneak if predicate starwars:input/jump run function starwars:force_power/force_jump
+execute as @a[tag=starwars.grounded] if predicate starwars:input/jump run function starwars:force_power/force_jump
 execute as @a[tag=!starwars.grounded] run attribute @s minecraft:jump_strength modifier remove starwars:force_jump
 execute as @a if score @s starwars.force_stamina matches 5.. if predicate starwars:input/sneak run attribute @s minecraft:jump_strength modifier add starwars:force_jump 1.5 add_multiplied_base
 execute as @a if score @s starwars.force_stamina matches 5.. if predicate starwars:input/sneak if predicate starwars:is_on_ground run tag @s add starwars.grounded
