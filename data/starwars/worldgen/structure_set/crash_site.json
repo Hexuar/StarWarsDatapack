@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "starwars:crash_site",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 4,
+    "salt": 32464
+  }
+}
