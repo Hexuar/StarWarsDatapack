@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "gui.starwars.hyperspace_travel"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "gui.starwars.hyperspace_travel_desc"
+    }
+  },
+  "exit_action": {
+    "label": {
+      "translate": "gui.cancel"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "translate": "dimension.starwars.dagobah"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_dagobah"
+      }
+    },
+    {
+      "label": {
+        "translate": "dimension.starwars.endor"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_endor"
+      }
+    },
+    {
+      "label": {
+        "translate": "dimension.starwars.geonosis"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_geonosis"
+      }
+    },
+    {
+      "label": {
+        "translate": "dimension.starwars.hoth"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_hoth"
+      }
+    },
+    {
+      "label": {
+        "translate": "dimension.starwars.ilum"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_ilum"
+      }
+    },
+    {
+      "label": {
+        "translate": "dimension.starwars.mustafar"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_mustafar"
+      }
+    },
+    {
+      "label": {
+        "translate": "dimension.starwars.overworld"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_overworld"
+      }
+    },
+    {
+      "label": {
+        "translate": "dimension.starwars.tatooine"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger starwars.travel_tatooine"
+      }
+    }
+  ]
+}

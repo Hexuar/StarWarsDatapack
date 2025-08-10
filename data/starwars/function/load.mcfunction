@@ -11,6 +11,16 @@ scoreboard objectives add starwars.max_force_stamina dummy
 scoreboard objectives add starwars.force_stamina_gain dummy
 scoreboard objectives add starwars.force_stamina_cooldown dummy
 
+# Triggers
+scoreboard objectives add starwars.travel_dagobah trigger
+scoreboard objectives add starwars.travel_endor trigger
+scoreboard objectives add starwars.travel_geonosis trigger
+scoreboard objectives add starwars.travel_hoth trigger
+scoreboard objectives add starwars.travel_ilum trigger
+scoreboard objectives add starwars.travel_mustafar trigger
+scoreboard objectives add starwars.travel_overworld trigger
+scoreboard objectives add starwars.travel_tatooine trigger
+
 # Numbers
 scoreboard players set #-1 starwars.const -1
 scoreboard players set #0 starwars.const 0
@@ -24,7 +34,8 @@ scoreboard players set #1000000 starwars.const 1000000
 scoreboard players set #10000000 starwars.const 10000000
 
 scoreboard players set #4 starwars.const 4
-scoreboard players set #16 starwars.value 16
+scoreboard players set #16 starwars.const 16
+scoreboard players set #20 starwars.const 20
 scoreboard players set #90 starwars.const 90
 scoreboard players set #180 starwars.const 180
 scoreboard players set #360 starwars.const 360

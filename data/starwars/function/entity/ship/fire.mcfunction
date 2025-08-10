@@ -1,4 +1,4 @@
-advancement revoke @s only starwars:ship/fire
+advancement revoke @s only starwars:ship/right_click
 
 execute on vehicle on vehicle run function starwars:entity/get_id
 

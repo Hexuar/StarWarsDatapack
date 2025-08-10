@@ -37,4 +37,25 @@ execute as @a[tag=starwars.remove_restoring_stamina] run tag @s remove starwars.
 execute as @a[tag=starwars.grounded] if predicate starwars:input/jump run function starwars:force_power/force_jump
 execute as @a[tag=!starwars.grounded] run attribute @s minecraft:jump_strength modifier remove starwars:force_jump
 execute as @a if score @s starwars.force_stamina matches 5.. if predicate starwars:input/sneak run attribute @s minecraft:jump_strength modifier add starwars:force_jump 1.5 add_multiplied_base
+execute as @a if score @s starwars.force_stamina matches 5.. unless predicate starwars:input/sneak if predicate starwars:is_on_ground run tag @s remove starwars.grounded
 execute as @a if score @s starwars.force_stamina matches 5.. if predicate starwars:input/sneak if predicate starwars:is_on_ground run tag @s add starwars.grounded
+
+# Triggers
+execute as @a[scores={starwars.travel_dagobah=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:dagobah_space"}
+execute as @a[scores={starwars.travel_endor=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:endor_space"}
+execute as @a[scores={starwars.travel_geonosis=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:geonosis_space"}
+execute as @a[scores={starwars.travel_hoth=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:hoth_space"}
+execute as @a[scores={starwars.travel_ilum=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:ilum_space"}
+execute as @a[scores={starwars.travel_mustafar=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:mustafar_space"}
+execute as @a[scores={starwars.travel_overworld=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:overworld_space"}
+execute as @a[scores={starwars.travel_tatooine=1..}] at @s run function starwars:entity/ship/hyperspace/travel_player {dimension:"starwars:tatooine_space"}
+
+
+scoreboard players enable @a starwars.travel_dagobah
+scoreboard players enable @a starwars.travel_endor
+scoreboard players enable @a starwars.travel_geonosis
+scoreboard players enable @a starwars.travel_hoth
+scoreboard players enable @a starwars.travel_ilum
+scoreboard players enable @a starwars.travel_mustafar
+scoreboard players enable @a starwars.travel_overworld
+scoreboard players enable @a starwars.travel_tatooine
