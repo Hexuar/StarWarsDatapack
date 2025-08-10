@@ -30,6 +30,7 @@ $execute store result score #grounded starwars.value unless block ~ ~-$(height) 
 execute unless entity @p[distance=..16,predicate=starwars:is_driving] if score @s starwars.ship_speed matches 0.. run scoreboard players remove @s starwars.ship_speed 1
 $execute unless score @s starwars.hyperspace_cooldown matches ..-1 if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/jump] if score @s starwars.ship_speed matches ..$(max_speed) run scoreboard players add @s starwars.ship_speed $(acceleration)
 $execute unless score @s starwars.hyperspace_cooldown matches ..-1 if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/sprint] if score @s starwars.ship_speed matches $(acceleration).. run scoreboard players remove @s starwars.ship_speed $(acceleration)
+$execute unless score @s starwars.hyperspace_cooldown matches ..-1 if entity @p[distance=..16,predicate=starwars:is_driving,predicate=starwars:input/sprint] unless score @s starwars.ship_speed matches $(acceleration).. run scoreboard players set @s starwars.ship_speed 0
 execute unless score @s starwars.ship_speed matches 0.. run scoreboard players set @s starwars.ship_speed 0
 
 # Gravity
