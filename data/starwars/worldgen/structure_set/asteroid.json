@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "starwars:asteroid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 3,
+    "spread": 24,
+    "count": 500,
+    "preferred_biomes": "minecraft:plains",
+    "salt": 32464,
+    "frequency_reduction_method": "legacy_type_2"
+  }
+}

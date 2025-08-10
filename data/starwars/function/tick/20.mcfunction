@@ -8,7 +8,7 @@ execute as @e[tag=starwars.entity] at @s if entity @s[tag=!starwars.entity_root]
 
 # Apply gravity
 execute as @a run attribute @s minecraft:gravity base reset
-execute at @e[type=marker,tag=starwars.planet] as @a[distance=0..] run attribute @s minecraft:gravity base set 0
+execute at @e[type=marker,tag=starwars.planet] as @a[distance=0..] run attribute @s minecraft:gravity base set 0.0035
 
 # Space freezing
 execute at @e[type=marker,tag=starwars.planet] as @a[distance=0..] unless predicate starwars:fully_clothed run damage @s 1 minecraft:freeze
