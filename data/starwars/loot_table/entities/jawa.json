@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "starwars:item/credit",
+          "value": "starwars:items/credit",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -1,4 +1,4 @@
-loot insert ~ ~ ~ loot starwars:item/lightsaber
+loot insert ~ ~ ~ loot starwars:items/lightsaber
 
 
 # Set hilt

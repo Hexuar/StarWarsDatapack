@@ -11,9 +11,9 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "translate":"block.starwars.holoprojector"
+                  "translate":"block.starwars.lightsaber_forge"
                 },
-                "item_model": "starwars:block/holoprojector",
+                "item_model": "starwars:block/lightsaber_forge",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Silent": true,
@@ -24,13 +24,13 @@
                   "Item": {
                     "id": "minecraft:item_frame",
                     "components": {
-                      "minecraft:item_model": "starwars:block/holoprojector",
+                      "minecraft:item_model": "starwars:block/lightsaber_forge",
                       "minecraft:custom_data": {
-                        "block": "minecraft:dropper",
+                        "block": "minecraft:barrel",
                         "sound": "block.stone.place",
-                        "loot_table": "starwars:block/holoprojector",
-                        "name": {"translate":"block.starwars.holoprojector"},
-                        "id": "starwars.holoprojector"
+                        "loot_table": "starwars:blocks/lightsaber_forge",
+                        "name": {"translate":"block.starwars.lightsaber_forge"},
+                        "id": "starwars.lightsaber_forge"
                       }
                     }
                   }

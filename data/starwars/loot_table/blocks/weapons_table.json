@@ -11,9 +11,9 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "translate":"block.starwars.e_web"
+                  "translate":"block.starwars.weapons_table"
                 },
-                "item_model": "starwars:block/e_web",
+                "item_model": "starwars:block/weapons_table",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Silent": true,
@@ -24,12 +24,13 @@
                   "Item": {
                     "id": "minecraft:item_frame",
                     "components": {
-                      "item_model": "starwars:block/e_web",
+                      "item_model": "starwars:block/weapons_table",
                       "minecraft:custom_data": {
-                        "block": "minecraft:barrier",
+                        "block": "minecraft:barrel",
                         "sound": "block.stone.place",
-                        "loot_table": "starwars:block/e_web",
-                        "id": "starwars.e_web"
+                        "loot_table": "starwars:blocks/weapons_table",
+                        "name": {"translate":"block.starwars.weapons_table"},
+                        "id": "starwars.weapons_table"
                       }
                     }
                   }

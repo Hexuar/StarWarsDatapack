@@ -31,7 +31,7 @@
             "minecraft:custom_data": {
               "block": "minecraft:barrel",
               "sound": "block.stone.place",
-              "loot_table": "starwars:block/holoprojector",
+              "loot_table": "starwars:blocks/holoprojector",
               "name": {
                 "translate": "block.starwars.holoprojector"
               },

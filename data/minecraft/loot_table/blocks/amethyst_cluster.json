@@ -52,7 +52,7 @@
                     },
                     {
                       "type": "minecraft:loot_table",
-                      "value": "starwars:item/kyber_crystal",
+                      "value": "starwars:items/kyber_crystal",
                       "weight": 1
                     }
                   ],

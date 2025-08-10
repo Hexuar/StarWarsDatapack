@@ -11,9 +11,9 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "translate":"block.starwars.ship_constructor"
+                  "translate":"block.starwars.e_web"
                 },
-                "item_model": "starwars:block/ship_constructor",
+                "item_model": "starwars:block/e_web",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Silent": true,
@@ -24,13 +24,12 @@
                   "Item": {
                     "id": "minecraft:item_frame",
                     "components": {
-                      "item_model": "starwars:block/ship_constructor",
+                      "item_model": "starwars:block/e_web",
                       "minecraft:custom_data": {
-                        "block": "minecraft:barrel",
+                        "block": "minecraft:barrier",
                         "sound": "block.stone.place",
-                        "loot_table": "starwars:block/ship_constructor",
-                        "name": {"translate":"block.starwars.ship_constructor"},
-                        "id": "starwars.ship_constructor"
+                        "loot_table": "starwars:blocks/e_web",
+                        "id": "starwars.e_web"
                       }
                     }
                   }
