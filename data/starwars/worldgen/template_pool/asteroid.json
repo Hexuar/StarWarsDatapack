@@ -2,12 +2,39 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "starwars:asteroid/asteroid1",
         "projection": "rigid",
         "processors": "starwars:asteroid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "starwars:asteroid/asteroid2",
+        "projection": "rigid",
+        "processors": "starwars:asteroid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "starwars:asteroid/basalt_asteroid1",
+        "projection": "rigid",
+        "processors": "starwars:basalt_asteroid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "starwars:asteroid/basalt_asteroid2",
+        "projection": "rigid",
+        "processors": "starwars:basalt_asteroid"
       }
     }
   ]
