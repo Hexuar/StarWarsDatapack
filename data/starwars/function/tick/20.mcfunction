@@ -17,3 +17,6 @@ execute at @e[type=marker,tag=starwars.planet] as @a[distance=0..] unless predic
 execute as @a[tag=starwars.restoring_stamina] run scoreboard players operation @s starwars.force_stamina += @s starwars.force_stamina_gain
 execute as @a[tag=starwars.restoring_stamina] unless score @s starwars.force_stamina < @s starwars.max_force_stamina run scoreboard players operation @s starwars.force_stamina = @s starwars.max_force_stamina
 execute as @a[tag=starwars.restoring_stamina] unless score @s starwars.force_stamina < @s starwars.max_force_stamina run tag @s add starwars.remove_restoring_stamina
+
+# Restore planets
+function starwars:worldgen/restore_planets
