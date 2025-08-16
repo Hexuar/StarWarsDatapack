@@ -57,6 +57,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/netherite_block"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/tinted_glass"
       }
     ]
   }
