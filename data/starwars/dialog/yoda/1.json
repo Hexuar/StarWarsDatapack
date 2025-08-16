@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "entity.starwars.yoda"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "stick",
+        "components": {
+          "minecraft:item_model": "starwars:entity/mob/yoda"
+        }
+      },
+      "description": {
+        "translate": "dialog.starwars.yoda.1"
+      },
+      "show_tooltip": false,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "action": {
+    "label": "I see...",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "starwars:yoda/2"
+    }
+  }
+}

@@ -1,5 +1,4 @@
 execute on vehicle run function starwars:entity/get_id
-$execute as @n[tag=starwars.ship,tag=starwars.current] run say $(dimension)
 $execute as @n[tag=starwars.ship,tag=starwars.current] run function starwars:entity/ship/hyperspace/travel {dimension:"$(dimension)"}
 tag @e remove starwars.current
 

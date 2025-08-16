@@ -38,13 +38,23 @@ scoreboard players set #gravity starwars.value 0
 execute unless entity @e[type=marker,tag=starwars.planet,distance=0..] if score #grounded starwars.value matches 0 if score @s starwars.ship_speed matches 0 run scoreboard players set #gravity starwars.value 30
 execute unless entity @e[type=marker,tag=starwars.planet,distance=0..] if score #grounded starwars.value matches 0 unless score @s starwars.ship_speed matches 0 unless entity @p[distance=..16,predicate=starwars:is_driving] run scoreboard players set #gravity starwars.value 30
 
+# Calculate speed depending on engine
+scoreboard players operation #speed starwars.value = @s starwars.ship_speed
+execute unless items entity @n[type=minecraft:chest_minecart,tag=starwars.ship_storage,tag=starwars.current] container.11 *[custom_data~{starwars:{engine:1b}}] run scoreboard players set #speed starwars.value 0
+execute store result score #multiplier starwars.value run data get entity @n[type=minecraft:chest_minecart,tag=starwars.ship_storage,tag=starwars.current] Items[{Slot:11b}].components."minecraft:custom_data".starwars.tier 1
+scoreboard players operation #speed starwars.value *= #multiplier starwars.value
+
 # Apply movement
-execute store result storage starwars:input speed float 0.01 run scoreboard players get @s starwars.ship_speed
+execute store result storage starwars:input speed float 0.01 run scoreboard players get #speed starwars.value
 execute store result storage starwars:input gravity float 0.01 run scoreboard players get #gravity starwars.value
 function starwars:entity/ship/move with storage starwars:input
 
 
 # Update AEC
-execute as @n[type=area_effect_cloud,tag=starwars.current,distance=..16] run function starwars:entity/update_aec
+execute as @e[type=area_effect_cloud,tag=starwars.current,distance=..16] run function starwars:entity/update_aec
+
+
+# Ship storage
+execute as @e[type=minecraft:chest_minecart,tag=starwars.ship_storage] run function starwars:entity/ship_storage/tick
 
 tag @e[tag=starwars.current] remove starwars.current

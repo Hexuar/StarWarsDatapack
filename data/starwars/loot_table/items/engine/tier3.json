@@ -11,11 +11,13 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.starwars.engine"},
+                "minecraft:lore": [{"translate": "item.starwars.engine.tier3", "color": "gray", "italic": false}],
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_model": "starwars:engine",
                 "minecraft:custom_data": {
                   "starwars": {
-                    "engine": true
+                    "engine": true,
+                    "tier": 3
                   }
                 }
               }

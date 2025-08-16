@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~-1 ~ {CustomName:{"translate":"entity.starwars.ship_storage"},Age:999999,Radius:0f,Tags:["starwars.entity","starwars.new","starwars.ship_storage"],Passengers:[{id:"minecraft:chest_minecart",CustomName:{"translate":"entity.starwars.ship_storage"},Invulnerable:true,Tags:["starwars.entity","starwars.new","starwars.ship_storage"]}]}
