@@ -1,0 +1,20 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blaze_rod"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "starwars:engine/tier3"
+    ]
+  }
+}

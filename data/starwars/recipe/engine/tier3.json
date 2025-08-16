@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "GDG",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:blaze_rod",
+    "G": "minecraft:gold_ingot",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:item_name": {"translate":"item.starwars.engine"},
+      "minecraft:lore": [{"translate": "item.starwars.engine.tier3", "color": "gray", "italic": false}],
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "starwars:engine",
+      "minecraft:custom_data": {
+        "starwars": {
+          "engine": true,
+          "tier": 3
+        }
+      }
+    }
+  }
+}

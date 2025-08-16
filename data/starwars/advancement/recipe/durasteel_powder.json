@@ -1,0 +1,20 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magma_cream"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "starwars:durasteel_ingot"
+    ]
+  }
+}
