@@ -8,13 +8,6 @@
           "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.starwars.blaster.dc-15x",
-                "italic": false
-              }
-            },
-            {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
@@ -39,6 +32,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_name": {"translate": "item.starwars.blaster.dc-15x"},
                 "minecraft:consumable": {
                   "consume_seconds": 1e+38,
                   "animation": "none",

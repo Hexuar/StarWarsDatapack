@@ -7,7 +7,8 @@
         "element_type": "minecraft:single_pool_element",
         "location": "starwars:crash_site/crater1",
         "projection": "terrain_matching",
-        "processors": "minecraft:empty"
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "apply_waterlogging"
       }
     }
   ]

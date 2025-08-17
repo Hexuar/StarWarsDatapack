@@ -3,5 +3,5 @@ execute if entity @s[tag=!starwars.explode_on_impact,tag=!starwars.lightning_bol
 execute if entity @s[tag=starwars.lightning_bolt] run function starwars:entity/blaster_bolt/reflect/check
 execute if entity @s[tag=starwars.lightning_bolt] run return 0
 
-execute if entity @s[tag=starwars.explode_on_impact] run summon tnt
+execute if entity @s[tag=starwars.explode_on_impact] run summon tnt ~ ~ ~ {fuse:0s}
 kill @e[type=item_display,tag=starwars.blaster_bolt,tag=starwars.this,sort=nearest,limit=1]

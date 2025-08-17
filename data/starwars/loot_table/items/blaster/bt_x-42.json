@@ -8,13 +8,6 @@
           "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.starwars.blaster.bt_x-42",
-                "italic": false
-              }
-            },
-            {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "starwars": {
@@ -26,6 +19,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_name": {"translate": "item.starwars.blaster.bt_x-42"},
                 "minecraft:consumable": {
                   "consume_seconds": 1e+38,
                   "animation": "bow",
