@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:item_model": "starwars:block/holoprojector"
+      }
+    },
+    "title": {
+      "translate": "advancements.starwars.story.holoprojector.title"
+    },
+    "description": {
+      "translate": "advancements.starwars.story.holoprojector.description"
+    }
+  },
+  "parent": "starwars:story/ship_blueprint",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

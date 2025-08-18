@@ -44,6 +44,8 @@ execute unless items entity @n[type=minecraft:chest_minecart,tag=starwars.ship_s
 execute store result score #multiplier starwars.value run data get entity @n[type=minecraft:chest_minecart,tag=starwars.ship_storage,tag=starwars.current] Items[{Slot:11b}].components."minecraft:custom_data".starwars.tier 1
 scoreboard players operation #speed starwars.value *= #multiplier starwars.value
 
+execute if items entity @n[type=minecraft:chest_minecart,tag=starwars.ship_storage,tag=starwars.current] container.11 *[custom_data~{starwars:{engine:1b}}] run advancement grant @p[distance=..16,advancements={starwars:story/engine = false}] only starwars:story/engine
+
 # Apply movement
 execute store result storage starwars:input speed float 0.01 run scoreboard players get #speed starwars.value
 execute store result storage starwars:input gravity float 0.01 run scoreboard players get #gravity starwars.value

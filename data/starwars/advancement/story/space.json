@@ -14,7 +14,7 @@
     },
     "frame": "goal"
   },
-  "parent": "starwars:story/ship",
+  "parent": "starwars:story/engine",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
