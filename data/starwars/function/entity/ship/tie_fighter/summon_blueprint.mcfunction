@@ -1,5 +1,3 @@
-function starwars:entity/hologram/summon {ship:"tie_fighter"}
-
 execute positioned ~ ~ ~-1 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
 execute positioned ~ ~ ~1 run function starwars:entity/hologram/block/summon {model:"glass", block:"glass"}
 

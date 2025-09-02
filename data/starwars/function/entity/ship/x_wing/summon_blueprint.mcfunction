@@ -1,5 +1,3 @@
-function starwars:entity/hologram/summon {ship:"x_wing"}
-
 execute positioned ~ ~ ~-4 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
 execute positioned ~ ~ ~-3 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
 execute positioned ~ ~ ~-2 run function starwars:entity/hologram/block/summon {model:"iron_block", block:"iron_block"}
