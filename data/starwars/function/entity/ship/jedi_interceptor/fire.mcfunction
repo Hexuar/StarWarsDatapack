@@ -1,0 +1,3 @@
+execute positioned ^0.8 ^0.05 ^4.5 run function starwars:entity/blaster_bolt/summon {explode_on_impact:false,bloom:2,sound:"starwars:blaster",bolt:{particle:"minecraft:dust","texture":"green",color:[0.0f,1.0f,0.0f],damage:10,scale:0.5,fire:false}}
+
+execute positioned ^-0.8 ^0.05 ^4.5 run function starwars:entity/blaster_bolt/summon {explode_on_impact:false,bloom:2,sound:"starwars:blaster",bolt:{particle:"minecraft:dust","texture":"green",color:[0.0f,1.0f,0.0f],damage:10,scale:0.5,fire:false}}

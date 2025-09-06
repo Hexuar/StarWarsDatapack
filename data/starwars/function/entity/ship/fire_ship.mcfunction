@@ -1,0 +1,1 @@
+$function starwars:entity/ship/$(ship)/fire
