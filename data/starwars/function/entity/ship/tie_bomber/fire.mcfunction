@@ -1,0 +1,1 @@
+summon tnt ^1.8 ^-1.8 ^ {fuse:60s}

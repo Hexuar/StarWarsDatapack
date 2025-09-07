@@ -55,6 +55,7 @@ data modify storage starwars:ships aethersprite set value {max_speed:100, accele
 data modify storage starwars:ships jedi_interceptor set value {max_speed:100, acceleration:10, rotational_speed:3, height: 1}
 data modify storage starwars:ships tie_advanced_v1 set value {max_speed:100, acceleration:10, rotational_speed:3, height: 2.5}
 data modify storage starwars:ships tie_advanced_x1 set value {max_speed:100, acceleration:10, rotational_speed:3, height: 2}
+data modify storage starwars:ships tie_bomber set value {max_speed:40, acceleration:1, rotational_speed:1, height: 2.1}
 
 # Trades
 function starwars:entity/mob/trader/load_trades
