@@ -57,6 +57,6 @@ execute as @e[type=area_effect_cloud,tag=starwars.current,distance=..16] run fun
 
 
 # Ship storage
-execute as @e[type=minecraft:chest_minecart,tag=starwars.ship_storage] run function starwars:entity/ship_storage/tick
+execute as @n[type=minecraft:chest_minecart,tag=starwars.ship_storage,tag=starwars.current,distance=..16] run function starwars:entity/ship_storage/tick
 
 tag @e[tag=starwars.current] remove starwars.current
