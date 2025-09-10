@@ -49,13 +49,16 @@ scoreboard players set #BLASTER_BOLT_SPEED starwars.const 10
 scoreboard players set #LIGHTSABER_PARTS starwars.const 3
 
 # Ship Data
-data modify storage starwars:ships x_wing set value {max_speed:100, acceleration:7, rotational_speed:2, height:1}
-data modify storage starwars:ships tie_fighter set value {max_speed:50, acceleration:5, rotational_speed:1.5, height: 2.5}
 data modify storage starwars:ships aethersprite set value {max_speed:100, acceleration:1, rotational_speed:1.5, height: 1}
 data modify storage starwars:ships jedi_interceptor set value {max_speed:100, acceleration:10, rotational_speed:3, height: 1}
 data modify storage starwars:ships tie_advanced_v1 set value {max_speed:100, acceleration:10, rotational_speed:3, height: 2.5}
 data modify storage starwars:ships tie_advanced_x1 set value {max_speed:100, acceleration:10, rotational_speed:3, height: 2}
 data modify storage starwars:ships tie_bomber set value {max_speed:40, acceleration:1, rotational_speed:1, height: 2.1}
+data modify storage starwars:ships tie_defender set value {max_speed:200, acceleration:10, rotational_speed:3, height: 2.1}
+data modify storage starwars:ships tie_fighter set value {max_speed:50, acceleration:5, rotational_speed:1.5, height: 2.5}
+data modify storage starwars:ships tie_interceptor set value {max_speed:40, acceleration:1, rotational_speed:1, height: 2.1}
+data modify storage starwars:ships tie_striker set value {max_speed:100, acceleration:5, rotational_speed:1, height: 0.7}
+data modify storage starwars:ships x_wing set value {max_speed:100, acceleration:7, rotational_speed:2, height:1}
 
 # Trades
 function starwars:entity/mob/trader/load_trades

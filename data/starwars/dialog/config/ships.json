@@ -17,15 +17,6 @@
   "actions": [
     {
       "label": {
-        "translate": "entity.starwars.x_wing"
-      },
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "function starwars:config/ship {ship:\"x_wing\"}"
-      }
-    },
-    {
-      "label": {
         "translate": "entity.starwars.aethersprite"
       },
       "action": {
@@ -35,11 +26,83 @@
     },
     {
       "label": {
+        "translate": "entity.starwars.jedi_interceptor"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"jedi_interceptor\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.tie_advanced_v1"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"tie_advanced_v1\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.tie_advanced_x1"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"tie_advanced_x1\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.tie_bomber"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"tie_bomber\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.tie_defender"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"tie_defender\"}"
+      }
+    },
+    {
+      "label": {
         "translate": "entity.starwars.tie_fighter"
       },
       "action": {
         "type": "minecraft:run_command",
         "command": "function starwars:config/ship {ship:\"tie_fighter\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.tie_interceptor"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"tie_interceptor\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.tie_striker"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"tie_striker\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.x_wing"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"x_wing\"}"
       }
     }
   ]
