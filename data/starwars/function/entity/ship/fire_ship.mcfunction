@@ -1,1 +1,1 @@
-$function starwars:entity/ship/$(ship)/fire
+$function starwars:entity/ship/$(id)/fire
