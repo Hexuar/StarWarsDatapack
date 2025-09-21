@@ -65,13 +65,14 @@ item replace block ~ ~ ~ container.23 with command_block[item_name={"translate":
 
 
 # Clears ingredients if item has been taken
-execute if score #has_ingredients starwars.value matches 1 unless items block ~ ~ ~ container.16 *[custom_data~{starwars:{lightsaber:true}}] run function starwars:block/lightsaber_forge/clear
+execute if score #has_ingredients starwars.value matches 1.. unless items block ~ ~ ~ container.16 *[custom_data~{starwars:{lightsaber:true}}] run function starwars:block/lightsaber_forge/clear
 
 
 # Checks if correct ingredients are in place
 scoreboard players set #has_ingredients starwars.value 0
 execute if items block ~ ~ ~ container.10 *[custom_data~{starwars:{pommel_cap:true}},count=1] if items block ~ ~ ~ container.11 *[custom_data~{starwars:{lower_sleeve:true}},count=1] if items block ~ ~ ~ container.12 *[custom_data~{starwars:{kyber_crystal:true}},count=1] if items block ~ ~ ~ container.13 *[custom_data~{starwars:{upper_sleeve:true}},count=1] if items block ~ ~ ~ container.14 *[custom_data~{starwars:{emitter:true}},count=1] run scoreboard players set #has_ingredients starwars.value 1
+execute if items block ~ ~ ~ container.10 *[custom_data~{starwars:{pommel_cap:true}},count=2] if items block ~ ~ ~ container.11 *[custom_data~{starwars:{lower_sleeve:true}},count=2] if items block ~ ~ ~ container.12 *[custom_data~{starwars:{kyber_crystal:true}},count=1] if items block ~ ~ ~ container.13 *[custom_data~{starwars:{upper_sleeve:true}},count=2] if items block ~ ~ ~ container.14 *[custom_data~{starwars:{emitter:true}},count=2] run scoreboard players set #has_ingredients starwars.value 2
 
 execute unless items block ~ ~ ~ container.16 *[custom_data~{starwars:{lightsaber:true}}] run function starwars:block/return_item {slot:16}
 item replace block ~ ~ ~ container.16 with air
-execute if score #has_ingredients starwars.value matches 1 run function starwars:block/lightsaber_forge/craft
+execute if score #has_ingredients starwars.value matches 1.. run function starwars:block/lightsaber_forge/craft
