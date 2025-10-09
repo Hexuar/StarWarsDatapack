@@ -4,6 +4,6 @@ forceload add -64 -64 64 64
 $execute positioned -48 -48 -48 run place template starwars:planets/$(planet)
 
 # Summon planet marker
-$function starwars:worldgen/planet/summon_core {dimension:"$(dimension)"}
+$function starwars:worldgen/planet/summon_core {planet:$(planet), dimension:"$(dimension)"}
 
 #forceload remove -64 -64 64 64
