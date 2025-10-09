@@ -1,1 +1,2 @@
 $execute as @e[tag=starwars.ship,distance=..64] in $(dimension) run function starwars:worldgen/planet/travel {x:0.0, y:320.0, z:0.0}
+$execute as @a[distance=..64] unless predicate starwars:is_seated in $(dimension) run tp @s 0.0 320.0 0.0
