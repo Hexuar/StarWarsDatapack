@@ -49,7 +49,7 @@ scoreboard players set #BLASTER_BOLT_SPEED starwars.const 10
 scoreboard players set #LIGHTSABER_PARTS starwars.const 3
 
 # Ship Data
-data modify storage starwars:ships a_wing set value {max_speed:100, acceleration:4, rotational_speed:2, height:1}
+data modify storage starwars:ships a_wing set value {max_speed:100, acceleration:4, rotational_speed:2, height:1.5}
 data modify storage starwars:ships aethersprite set value {max_speed:126, acceleration:5, rotational_speed:2, height: 1}
 data modify storage starwars:ships jedi_interceptor set value {max_speed:150, acceleration:5, rotational_speed:3, height: 1}
 data modify storage starwars:ships tie_advanced_v1 set value {max_speed:160, acceleration:4, rotational_speed:2, height: 2.5}
