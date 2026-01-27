@@ -1,0 +1,390 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "gui.starwars.config.give_item"
+  },
+  "inputs": [],
+  "exit_action": {
+    "label": {
+      "translate": "gui.done"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "starwars:config"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "translate": "item.starwars.engine.tier3",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.engine"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/engine/tier3"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.engine.tier1",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.engine"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/engine/tier1"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.engine.tier2",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.engine"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/engine/tier2"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "entity.starwars.tie_fighter",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/tie_fighter"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "entity.starwars.aethersprite",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/aethersprite"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "entity.starwars.a_wing",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/a_wing"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "entity.starwars.jedi_interceptor",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/jedi_interceptor"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "entity.starwars.x_wing",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/x_wing"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.kyber_crystal"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/kyber_crystal"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.hyperdrive"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/hyperdrive"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.emitter"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/lightsaber/emitter"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.upper_sleeve"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/lightsaber/upper_sleeve"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.lower_sleeve"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/lightsaber/lower_sleeve"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.pommel_cap"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/lightsaber/pommel_cap"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.blaster.dc-15x"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blaster/dc-15x"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.blaster.dh17"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blaster/dh17"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.blaster.e11"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blaster/e11"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.blaster.a280"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blaster/a280"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.blaster.bt_x-42"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blaster/bt_x-42"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.blaster.rps-6"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blaster/rps-6"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.blaster.dc-17m"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blaster/dc-17m"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.electrobinoculars"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/electrobinoculars"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.rebel_hoth_chestplate"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/armor/rebel_hoth_chestplate"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.rebel_hoth_helmet"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/armor/rebel_hoth_helmet"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.rebel_hoth_boots"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/armor/rebel_hoth_boots"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.rebel_hoth_leggings"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/armor/rebel_hoth_leggings"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.thermal_detonator"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/grenade/thermal"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.dioxis_grenade"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/grenade/dioxis"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.flash_grenade"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/grenade/flash"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.bacta_grenade"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/grenade/bacta"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.smoke_grenade"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/grenade/smoke"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.lightsaber"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/lightsaber"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.force_lightning"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/scroll/force_lightning"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.force_heal"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/scroll/force_heal"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.force_push"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/scroll/force_push"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "item.starwars.credit"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/credit"
+      }
+    }
+  ]
+}

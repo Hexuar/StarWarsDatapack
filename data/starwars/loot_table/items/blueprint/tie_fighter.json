@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.starwars.blueprint"},
                 "minecraft:rarity": "common",
-                "item_model": "starwars:blueprint",
+                "minecraft:item_model": "starwars:blueprint",
                 "minecraft:custom_data": {
                   "starwars": {
                     "blueprint": true,

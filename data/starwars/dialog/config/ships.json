@@ -17,20 +17,20 @@
   "actions": [
     {
       "label": {
-        "translate": "entity.starwars.aethersprite"
-      },
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "function starwars:config/ship {ship:\"aethersprite\"}"
-      }
-    },
-    {
-      "label": {
         "translate": "entity.starwars.a_wing"
       },
       "action": {
         "type": "minecraft:run_command",
         "command": "function starwars:config/ship {ship:\"a_wing\"}"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.starwars.aethersprite"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function starwars:config/ship {ship:\"aethersprite\"}"
       }
     },
     {

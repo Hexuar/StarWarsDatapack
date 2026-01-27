@@ -1,0 +1,117 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+      "translate": "gui.starwars.config.summon.ship"
+    },
+    "inputs": [],
+    "exit_action": {
+      "label": {
+        "translate": "gui.done"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starwars:config"
+      }
+    },
+    "actions": [
+      {
+        "label": {
+          "translate": "entity.starwars.a_wing"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/a_wing/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.aethersprite"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/aethersprite/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.jedi_interceptor"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/jedi_interceptor/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tie_advanced_v1"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/tie_advanced_v1/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tie_advanced_x1"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/tie_advanced_x1/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tie_bomber"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/tie_bomber/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tie_defender"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/tie_defender/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tie_fighter"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/tie_fighter/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tie_interceptor"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/tie_interceptor/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tie_striker"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/tie_striker/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.x_wing"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/ship/x_wing/summon"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+      "translate": "gui.starwars.config.summon.mob"
+    },
+    "inputs": [],
+    "exit_action": {
+      "label": {
+        "translate": "gui.done"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starwars:config"
+      }
+    },
+    "actions": [
+      {
+        "label": {
+          "translate": "entity.starwars.bantha"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/mob/bantha/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.jawa"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/mob/jawa/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.tauntaun"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/mob/tauntaun/summon"
+        }
+      },
+      {
+        "label": {
+          "translate": "entity.starwars.wampa"
+        },
+        "action": {
+          "type": "minecraft:run_command",
+          "command": "function starwars:entity/mob/wampa/summon"
+        }
+      }
+    ]
+  }

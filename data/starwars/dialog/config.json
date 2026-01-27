@@ -14,6 +14,27 @@
       }
     },
     {
+      "label": {"translate": "gui.starwars.config.summon.mob"},
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starwars:config/summon/mob"
+      }
+    },
+    {
+      "label": {"translate": "gui.starwars.config.summon.ship"},
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starwars:config/summon/ship"
+      }
+    },
+    {
+      "label": {"translate": "gui.starwars.config.give_item"},
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starwars:config/give_item"
+      }
+    },
+    {
       "label": {"translate": "gui.starwars.config_dimensions"},
       "action": {
         "type": "minecraft:run_command",
