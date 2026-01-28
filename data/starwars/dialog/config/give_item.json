@@ -76,6 +76,21 @@
     }, 
     {
       "label": {
+        "translate": "entity.starwars.tie_advanced_v1",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/tie_advanced_v1"
+      }
+    }, 
+    {
+      "label": {
         "translate": "entity.starwars.aethersprite",
         "extra": [
           " ",
