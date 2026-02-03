@@ -106,6 +106,21 @@
     }, 
     {
       "label": {
+        "translate": "entity.starwars.tie_bomber",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/tie_bomber"
+      }
+    }, 
+    {
+      "label": {
         "translate": "entity.starwars.a_wing",
         "extra": [
           " ",
