@@ -181,6 +181,21 @@
     }, 
     {
       "label": {
+        "translate": "entity.starwars.tie_defender",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/tie_defender"
+      }
+    }, 
+    {
+      "label": {
         "translate": "item.starwars.kyber_crystal"
       },
       "action": {
