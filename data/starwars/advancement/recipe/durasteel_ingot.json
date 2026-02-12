@@ -14,7 +14,9 @@
   },
   "rewards": {
     "recipes": [
-      "starwars:durasteel_ingot"
+      "starwars:durasteel_ingot_from_smelting",
+      "starwars:durasteel_ingot_from_blasting",
+      "starwars:durasteel_ingot_from_durasteel_block"
     ]
   }
 }

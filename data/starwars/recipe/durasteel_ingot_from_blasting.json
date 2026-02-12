@@ -1,8 +1,10 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:blasting",
   "category": "misc",
+  "group": "durasteel_ingot",
   "ingredient": "minecraft:blaze_powder",
   "result": {
     "id": "minecraft:blaze_rod"
-  }
+  },
+  "cookingtime": 200
 }
