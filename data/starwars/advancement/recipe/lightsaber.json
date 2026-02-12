@@ -19,7 +19,7 @@
   },
   "rewards": {
     "recipes": [
-      "starwars:lightsaber/emmiter",
+      "starwars:lightsaber/emitter",
       "starwars:lightsaber/lower_sleeve",
       "starwars:lightsaber/pommel_cap",
       "starwars:lightsaber/upper_sleeve"
