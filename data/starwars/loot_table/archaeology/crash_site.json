@@ -6,7 +6,52 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/a_wing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "starwars:items/blueprint/aethersprite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/jedi_interceptor",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/tie_advanced_v1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/tie_advanced_x1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/tie_bomber",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/tie_defender",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/tie_fighter",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/tie_interceptor",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "starwars:items/blueprint/tie_striker",
           "weight": 1
         },
         {
