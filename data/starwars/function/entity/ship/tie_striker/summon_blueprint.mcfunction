@@ -67,7 +67,7 @@ execute positioned ~2 ~1 ~6 run function starwars:entity/hologram/block/summon {
 execute positioned ~3 ~1 ~-2 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
 execute positioned ~3 ~1 ~-1 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
 execute positioned ~3 ~1 ~ run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
-execute positioned ~-3 ~1 ~1 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
+execute positioned ~3 ~1 ~1 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
 execute positioned ~3 ~1 ~2 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
 execute positioned ~3 ~1 ~3 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
 execute positioned ~3 ~1 ~4 run function starwars:entity/hologram/block/summon {model:"iron_trapdoor_bottom", block:"iron_trapdoor"}
