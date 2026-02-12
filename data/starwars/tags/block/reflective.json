@@ -1,5 +1,20 @@
 {
   "values": [
-    "#starwars:glass"
+    "#starwars:glass",
+    "minecraft:copper_block",
+    "minecraft:cut_copper",
+    "minecraft:chiseled_copper",
+    "minecraft:waxed_copper_block",
+    "minecraft:waxed_cut_copper",
+    "minecraft:waxed_chiseled_copper",
+    "minecraft:iron_block",
+    "minecraft:gold_block",
+    "minecraft:diamond_block",
+    "minecraft:emerald_block",
+    "minecraft:netherite_block",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "minecraft:amethyst_block"
   ]
 }
