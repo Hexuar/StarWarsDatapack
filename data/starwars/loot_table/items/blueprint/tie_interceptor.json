@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.starwars.blueprint"},
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "starwars:blueprint",
+                "minecraft:custom_data": {
+                  "starwars": {
+                    "blueprint": true,
+                    "ship": "tie_interceptor"
+                  }
+                },
+                "minecraft:lore": [
+                  {"translate": "entity.starwars.tie_interceptor", "italic": false, "color": "gray"}
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

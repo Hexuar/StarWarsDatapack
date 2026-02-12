@@ -136,6 +136,36 @@
     }, 
     {
       "label": {
+        "translate": "entity.starwars.tie_striker",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/tie_striker"
+      }
+    }, 
+    {
+      "label": {
+        "translate": "entity.starwars.tie_interceptor",
+        "extra": [
+          " ",
+          {
+            "translate": "item.starwars.blueprint"
+          }
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot starwars:items/blueprint/tie_interceptor"
+      }
+    }, 
+    {
+      "label": {
         "translate": "entity.starwars.jedi_interceptor",
         "extra": [
           " ",
